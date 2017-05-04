@@ -1,5 +1,0 @@
-E:\谢华良\demo\Enowit_Video_test\Enowitsoft.USBCam\bin\Debug\Enowitsoft.USBCam.XML
-E:\谢华良\demo\Enowit_Video_test\Enowitsoft.USBCam\bin\Debug\Enowitsoft.USBCam.dll
-E:\谢华良\demo\Enowit_Video_test\Enowitsoft.USBCam\bin\Debug\Enowitsoft.USBCam.pdb
-E:\谢华良\demo\Enowit_Video_test\Enowitsoft.USBCam\obj\Debug\Enowitsoft.USBCam.dll
-E:\谢华良\demo\Enowit_Video_test\Enowitsoft.USBCam\obj\Debug\Enowitsoft.USBCam.pdb
