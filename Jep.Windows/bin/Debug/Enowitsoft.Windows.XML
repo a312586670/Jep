@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Enowitsoft.Windows</name>
+    </assembly>
+    <members>
+        <member name="T:Enowitsoft.Windows.EnowitRegister">
+            <summary>
+            注册表操作类
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Windows.EnowitRegister.setValue(Enowitsoft.Windows.EnowitRegister.keyType,System.String,System.String,System.String)">
+            <summary>
+            写入注册表,如果指定项已经存在,则修改指定项的值
+            </summary>
+            <param name="keyType">注册表基项枚举</param>
+            <param name="key">注册表项,不包括基项</param>
+            <param name="name">值名称</param>
+            <param name="values">值</param>
+            <returns>返回布尔值,指定操作是否成功</returns>
+        </member>
+        <member name="M:Enowitsoft.Windows.EnowitRegister.getValue(Enowitsoft.Windows.EnowitRegister.keyType,System.String,System.String)">
+            <summary>
+            读取注册表
+            </summary>
+            <param name="keyType">注册表基项枚举</param>
+            <param name="key">注册表项,不包括基项</param>
+            <param name="name">值名称</param>
+            <returns>返回字符串</returns>
+        </member>
+        <member name="M:Enowitsoft.Windows.EnowitRegister.deleteValue(Enowitsoft.Windows.EnowitRegister.keyType,System.String,System.String)">
+            <summary>
+            删除注册表中的值
+            </summary>
+            <param name="keyType">注册表基项枚举</param>
+            <param name="key">注册表项名称,不包括基项</param>
+            <param name="name">值名称</param>
+            <returns>返回布尔值,指定操作是否成功</returns>
+        </member>
+        <member name="M:Enowitsoft.Windows.EnowitRegister.deleteSubKey(Enowitsoft.Windows.EnowitRegister.keyType,System.String)">
+            <summary>
+            删除注册表中的指定项
+            </summary>
+            <param name="keytype">注册表基项枚举</param>
+            <param name="key">注册表中的项,不包括基项</param>
+            <returns>返回布尔值,指定操作是否成功</returns>
+        </member>
+        <member name="M:Enowitsoft.Windows.EnowitRegister.isExist(Enowitsoft.Windows.EnowitRegister.keyType,System.String)">
+            <summary>
+            判断指定项是否存在
+            </summary>
+            <param name="keyType">基项枚举</param>
+            <param name="key">指定项字符串</param>
+            <returns>返回布尔值,说明指定项是否存在</returns>
+        </member>
+        <member name="M:Enowitsoft.Windows.EnowitRegister.getValues(Enowitsoft.Windows.EnowitRegister.keyType,System.String)">
+            <summary>
+            检索指定项关联的所有值
+            </summary>
+            <param name="keyType">基项枚举</param>
+            <param name="key">指定项字符串</param>
+            <returns>返回指定项关联的所有值的字符串数组</returns>
+        </member>
+        <member name="M:Enowitsoft.Windows.EnowitRegister.getRegistryKey(Enowitsoft.Windows.EnowitRegister.keyType)">
+            <summary>
+            返回RegistryKey对象
+            </summary>
+            <param name="keytype">注册表基项枚举</param>
+            <returns></returns>
+        </member>
+        <member name="T:Enowitsoft.Windows.EnowitRegister.keyType">
+            <summary>
+            注册表基项枚举
+            </summary>
+        </member>
+        <member name="F:Enowitsoft.Windows.EnowitRegister.keyType.HKEY_CLASS_ROOT">
+            <summary>
+            注册表基项 HKEY_CLASSES_ROOT
+            </summary>
+        </member>
+        <member name="F:Enowitsoft.Windows.EnowitRegister.keyType.HKEY_CURRENT_USER">
+            <summary>
+            注册表基项 HKEY_CURRENT_USER
+            </summary>
+        </member>
+        <member name="F:Enowitsoft.Windows.EnowitRegister.keyType.HKEY_LOCAL_MACHINE">
+            <summary>
+            注册表基项 HKEY_LOCAL_MACHINE
+            </summary>
+        </member>
+        <member name="F:Enowitsoft.Windows.EnowitRegister.keyType.HKEY_USERS">
+            <summary>
+            注册表基项 HKEY_USERS
+            </summary>
+        </member>
+        <member name="F:Enowitsoft.Windows.EnowitRegister.keyType.HKEY_CURRENT_CONFIG">
+            <summary>
+            注册表基项 HKEY_CURRENT_CONFIG
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,6 @@
+D:\项目\个人项目\Enowitsoft\trunk\Eastonsoft.SharpZLib\bin\Debug\Eastonsoft.SharpZipLib.XML
+D:\项目\个人项目\Enowitsoft\trunk\Eastonsoft.SharpZLib\bin\Debug\Eastonsoft.SharpZipLib.dll
+D:\项目\个人项目\Enowitsoft\trunk\Eastonsoft.SharpZLib\obj\Release\Eastonsoft.SharpZipLib.dll
+D:\项目\project\jep\Jep.SharpZLib\bin\Debug\Eastonsoft.SharpZipLib.XML
+D:\项目\project\jep\Jep.SharpZLib\bin\Debug\Eastonsoft.SharpZipLib.dll
+D:\项目\project\jep\Jep.SharpZLib\obj\Release\Eastonsoft.SharpZipLib.dll

@@ -1,0 +1,8 @@
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Web\bin\Release\Enowitsoft.Web.dll
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Web\bin\Release\Enowitsoft.Web.pdb
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Web\obj\Release\Enowitsoft.Web.dll
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Web\obj\Release\Enowitsoft.Web.pdb
+D:\项目\project\jep\Jep.Web\bin\Release\Enowitsoft.Web.dll
+D:\项目\project\jep\Jep.Web\bin\Release\Enowitsoft.Web.pdb
+D:\项目\project\jep\Jep.Web\obj\Release\Enowitsoft.Web.dll
+D:\项目\project\jep\Jep.Web\obj\Release\Enowitsoft.Web.pdb

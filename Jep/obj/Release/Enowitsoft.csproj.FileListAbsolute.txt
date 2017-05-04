@@ -1,0 +1,4 @@
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft\bin\Release\Enowitsoft.dll
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft\bin\Release\Enowitsoft.pdb
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft\obj\Release\Enowitsoft.dll
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft\obj\Release\Enowitsoft.pdb

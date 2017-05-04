@@ -1,0 +1,8 @@
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Javascript\bin\Release\Enowitsoft.Javascript.dll
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Javascript\bin\Release\Enowitsoft.Javascript.pdb
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Javascript\obj\Release\Enowitsoft.Javascript.dll
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Javascript\obj\Release\Enowitsoft.Javascript.pdb
+D:\项目\project\jep\Jep.Javascript\bin\Release\Enowitsoft.Javascript.dll
+D:\项目\project\jep\Jep.Javascript\bin\Release\Enowitsoft.Javascript.pdb
+D:\项目\project\jep\Jep.Javascript\obj\Release\Enowitsoft.Javascript.dll
+D:\项目\project\jep\Jep.Javascript\obj\Release\Enowitsoft.Javascript.pdb

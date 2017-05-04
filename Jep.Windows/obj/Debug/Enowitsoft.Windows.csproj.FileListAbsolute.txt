@@ -1,0 +1,38 @@
+E:\谢华良\demo\Enowit_Windows_test\Enowitsoft.Windows\bin\Debug\Enowitsoft.Windows.XML
+E:\谢华良\demo\Enowit_Windows_test\Enowitsoft.Windows\bin\Debug\Enowitsoft.Windows.dll
+E:\谢华良\demo\Enowit_Windows_test\Enowitsoft.Windows\bin\Debug\Enowitsoft.Windows.pdb
+E:\谢华良\demo\Enowit_Windows_test\Enowitsoft.Windows\obj\Debug\Enowitsoft.Windows.dll
+E:\谢华良\demo\Enowit_Windows_test\Enowitsoft.Windows\obj\Debug\Enowitsoft.Windows.pdb
+E:\Enowit Code\Enowitsoft\Enowitsoft.Windows\bin\Debug\Enowitsoft.Windows.XML
+E:\Enowit Code\Enowitsoft\Enowitsoft.Windows\bin\Debug\Enowitsoft.Windows.dll
+E:\Enowit Code\Enowitsoft\Enowitsoft.Windows\bin\Debug\Enowitsoft.Windows.pdb
+E:\Enowit Code\Enowitsoft\Enowitsoft.Windows\obj\Debug\Enowitsoft.Windows.dll
+E:\Enowit Code\Enowitsoft\Enowitsoft.Windows\obj\Debug\Enowitsoft.Windows.pdb
+I:\类库\Enowitsoft\Enowitsoft.Windows\bin\Debug\Enowitsoft.Windows.XML
+I:\类库\Enowitsoft\Enowitsoft.Windows\bin\Debug\Enowitsoft.Windows.dll
+I:\类库\Enowitsoft\Enowitsoft.Windows\bin\Debug\Enowitsoft.Windows.pdb
+I:\类库\Enowitsoft\Enowitsoft.Windows\obj\Debug\ResolveAssemblyReference.cache
+I:\类库\Enowitsoft\Enowitsoft.Windows\obj\Debug\Enowitsoft.Windows.dll
+I:\类库\Enowitsoft\Enowitsoft.Windows\obj\Debug\Enowitsoft.Windows.pdb
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Enowitsoft.Windows\bin\Debug\Enowitsoft.Windows.XML
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Enowitsoft.Windows\bin\Debug\Enowitsoft.Windows.dll
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Enowitsoft.Windows\bin\Debug\Enowitsoft.Windows.pdb
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Enowitsoft.Windows\obj\Debug\Enowitsoft.Windows.dll
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Enowitsoft.Windows\obj\Debug\Enowitsoft.Windows.pdb
+D:\项目\类库\Enowitsoft\Enowitsoft.Windows\bin\Debug\Enowitsoft.Windows.XML
+D:\项目\类库\Enowitsoft\Enowitsoft.Windows\bin\Debug\Enowitsoft.Windows.dll
+D:\项目\类库\Enowitsoft\Enowitsoft.Windows\bin\Debug\Enowitsoft.Windows.pdb
+D:\项目\类库\Enowitsoft\Enowitsoft.Windows\obj\Debug\Enowitsoft.Windows.dll
+D:\项目\类库\Enowitsoft\Enowitsoft.Windows\obj\Debug\Enowitsoft.Windows.pdb
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Enowitsoft.Windows\bin\Debug\Enowitsoft.Windows.dll
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Enowitsoft.Windows\bin\Debug\Enowitsoft.Windows.pdb
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Enowitsoft.Windows\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Enowitsoft.Windows\obj\Debug\Enowitsoft.Windows.dll
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Enowitsoft.Windows\obj\Debug\Enowitsoft.Windows.pdb
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.Windows\bin\Debug\Enowitsoft.Windows.XML
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.Windows\bin\Debug\Enowitsoft.Windows.dll
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.Windows\bin\Debug\Enowitsoft.Windows.pdb
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.Windows\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.Windows\obj\Debug\Enowitsoft.Windows.dll
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.Windows\obj\Debug\Enowitsoft.Windows.pdb
+D:\项目\类库\Enowitsoft\Enowitsoft.Windows\obj\Debug\Enowitsoft.Windows.csprojResolveAssemblyReference.cache

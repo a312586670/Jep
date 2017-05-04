@@ -1,0 +1,810 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Enowitsoft.Database</name>
+    </assembly>
+    <members>
+        <member name="T:Enowitsoft.Database.OrclelHelper">
+            <summary>
+            Orcle数据库底层数据操作类
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Database.OrclelHelper.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="contentString">连接字符串</param>
+        </member>
+        <member name="M:Enowitsoft.Database.OrclelHelper.GetMaxID(System.String,System.String)">
+            <summary>
+            获取最大值
+            </summary>
+            <param name="FieldName">列名</param>
+            <param name="TableName">表名</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.OrclelHelper.ExecuteSql(System.String,System.Data.OracleClient.OracleParameter[])">
+            <summary>
+            执行SQL语句，返回影响的记录数
+            </summary>
+            <param name="SQLString">SQL语句</param>
+            <param name="cmdParms">参数</param>
+            <returns>影响的记录数</returns>
+        </member>
+        <member name="M:Enowitsoft.Database.OrclelHelper.ExecuteNonQueryByProc(System.String,System.Data.OracleClient.OracleParameter[])">
+            <summary>
+            执行存储过程返回影响的行数
+            </summary>
+            <param name="procName">存储过程名</param>
+            <param name="sp">参数列表</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.OrclelHelper.GetDataSet(System.String,System.Data.OracleClient.OracleParameter[])">
+            <summary>
+            执行Sql语句返回一个DataSet
+            </summary>
+            <param name="Sql">Sql语句</param>
+            <param name="sp">参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.OrclelHelper.GetDataSetByProc(System.String,System.Data.OracleClient.OracleParameter[])">
+            <summary>
+            通过存储过程名来返回一个DataSet
+            </summary>
+            <param name="procName">存储过程名</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.OrclelHelper.GetTable(System.String,System.Data.OracleClient.OracleParameter[])">
+            <summary>
+            获取DataTable
+            </summary>
+            <param name="Sql">Sql语句</param>
+            <param name="sp">参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.OrclelHelper.GetTableByProc(System.String,System.Data.OracleClient.OracleParameter[])">
+            <summary>
+            执行存储过程来返回一个DataTable
+            </summary>
+            <param name="procName">存储过程名</param>
+            <param name="sp">参数</param>
+            <returns>DataTabel</returns>
+        </member>
+        <member name="M:Enowitsoft.Database.OrclelHelper.ExecuteSqlTran(System.Collections.ArrayList)">
+            <summary>
+            执行多条Sql语句，实现数据库事务
+            </summary>
+            <param name="SQLStringList">Sql语句列表</param>
+            <returns>是否提交完成事务， true-成功，false-失败</returns>
+        </member>
+        <member name="M:Enowitsoft.Database.OrclelHelper.ExecuteSqlTran(System.Collections.Hashtable)">
+            <summary>
+            执行多条SQL语句，实现数据库事务。
+            </summary>
+            <param name="SQLStringList">SQL语句的哈希表（key为sql语句，value是该语句的OracleParameter[]）</param>
+        </member>
+        <member name="M:Enowitsoft.Database.OrclelHelper.GetSingle(System.String,System.Data.OracleClient.OracleParameter[])">
+            <summary>
+            获取第一行的第一列
+            </summary>
+            <param name="SQLString"></param>
+            <param name="Times"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.OrclelHelper.PrepareCommand(System.Data.OracleClient.OracleCommand,System.Data.OracleClient.OracleConnection,System.Data.OracleClient.OracleTransaction,System.String,System.Data.OracleClient.OracleParameter[])">
+            <summary>
+            关联SqlCommand对象
+            </summary>
+            <param name="cmd"></param>
+            <param name="conn"></param>
+            <param name="trans"></param>
+            <param name="cmdText"></param>
+            <param name="cmdParms"></param>
+        </member>
+        <member name="T:Enowitsoft.Database.AccessHelper">
+            <summary>
+            Access数据库底层数据操作类
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Database.AccessHelper.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="contentString">连接字符串</param>
+        </member>
+        <member name="M:Enowitsoft.Database.AccessHelper.GetMaxID(System.String,System.String)">
+            <summary>
+            获取最大值
+            </summary>
+            <param name="FieldName">列名</param>
+            <param name="TableName">表名</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.AccessHelper.ExecuteSql(System.String,System.Data.OleDb.OleDbParameter[])">
+            <summary>
+            执行SQL语句，返回影响的记录数
+            </summary>
+            <param name="SQLString">SQL语句</param>
+            <param name="cmdParms">参数</param>
+            <returns>影响的记录数</returns>
+        </member>
+        <member name="M:Enowitsoft.Database.AccessHelper.ExecuteNonQueryByProc(System.String,System.Data.OleDb.OleDbParameter[])">
+            <summary>
+            执行存储过程返回影响的行数
+            </summary>
+            <param name="procName">存储过程名</param>
+            <param name="sp">参数列表</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.AccessHelper.GetDataSet(System.String,System.Data.OleDb.OleDbParameter[])">
+            <summary>
+            执行Sql语句返回一个DataSet
+            </summary>
+            <param name="Sql">Sql语句</param>
+            <param name="sp">参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.AccessHelper.GetDataSetByProc(System.String,System.Data.OleDb.OleDbParameter[])">
+            <summary>
+            通过存储过程名来返回一个DataSet
+            </summary>
+            <param name="procName">存储过程名</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.AccessHelper.GetTable(System.String,System.Data.OleDb.OleDbParameter[])">
+            <summary>
+            获取DataTable
+            </summary>
+            <param name="Sql">Sql语句</param>
+            <param name="sp">参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.AccessHelper.GetTableByProc(System.String,System.Data.OleDb.OleDbParameter[])">
+            <summary>
+            执行存储过程来返回一个DataTable
+            </summary>
+            <param name="procName">存储过程名</param>
+            <param name="sp">参数</param>
+            <returns>DataTabel</returns>
+        </member>
+        <member name="M:Enowitsoft.Database.AccessHelper.ExecuteSqlTran(System.Collections.ArrayList)">
+            <summary>
+            执行多条Sql语句，实现数据库事务
+            </summary>
+            <param name="SQLStringList">Sql语句列表</param>
+            <returns>是否提交完成事务， true-成功，false-失败</returns>
+        </member>
+        <member name="M:Enowitsoft.Database.AccessHelper.ExecuteSqlTran(System.Collections.Hashtable)">
+            <summary>
+            执行多条SQL语句，实现数据库事务。
+            </summary>
+            <param name="SQLStringList">SQL语句的哈希表（key为sql语句，value是该语句的OracleParameter[]）</param>
+        </member>
+        <member name="M:Enowitsoft.Database.AccessHelper.GetSingle(System.String,System.Data.OleDb.OleDbParameter[])">
+            <summary>
+            获取第一行的第一列
+            </summary>
+            <param name="SQLString"></param>
+            <param name="Times"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.AccessHelper.PrepareCommand(System.Data.OleDb.OleDbCommand,System.Data.OleDb.OleDbConnection,System.Data.OleDb.OleDbTransaction,System.String,System.Data.OleDb.OleDbParameter[])">
+            <summary>
+            关联SqlCommand对象
+            </summary>
+            <param name="cmd"></param>
+            <param name="conn"></param>
+            <param name="trans"></param>
+            <param name="cmdText"></param>
+            <param name="cmdParms"></param>
+        </member>
+        <member name="T:Enowitsoft.Database.SqlServerHelper">
+            <summary>
+            SqlServer数据库底层数据操作类
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Database.SqlServerHelper.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="contentString">连接字符串</param>
+        </member>
+        <member name="M:Enowitsoft.Database.SqlServerHelper.GetMaxID(System.String,System.String)">
+            <summary>
+            获取最大值
+            </summary>
+            <param name="FieldName">列名</param>
+            <param name="TableName">表名</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.SqlServerHelper.ExecuteSql(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            执行SQL语句，返回影响的记录数
+            </summary>
+            <param name="SQLString">SQL语句</param>
+            <param name="cmdParms">参数</param>
+            <returns>影响的记录数</returns>
+        </member>
+        <member name="M:Enowitsoft.Database.SqlServerHelper.ExecuteNonQueryByProc(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            执行存储过程返回影响的行数
+            </summary>
+            <param name="procName">存储过程名</param>
+            <param name="sp">参数列表</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.SqlServerHelper.GetDataSet(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            执行Sql语句返回一个DataSet
+            </summary>
+            <param name="Sql">Sql语句</param>
+            <param name="sp">参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.SqlServerHelper.GetDataSetByProc(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            通过存储过程名来返回一个DataSet
+            </summary>
+            <param name="procName">存储过程名</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.SqlServerHelper.GetTable(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            获取DataTable
+            </summary>
+            <param name="Sql">Sql语句</param>
+            <param name="sp">参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.SqlServerHelper.GetTableByProc(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            执行存储过程来返回一个DataTable
+            </summary>
+            <param name="procName">存储过程名</param>
+            <param name="sp">参数</param>
+            <returns>DataTabel</returns>
+        </member>
+        <member name="M:Enowitsoft.Database.SqlServerHelper.ExecuteSqlTran(System.Collections.ArrayList)">
+            <summary>
+            执行多条Sql语句，实现数据库事务
+            </summary>
+            <param name="SQLStringList">Sql语句列表</param>
+            <returns>是否提交完成事务， true-成功，false-失败</returns>
+        </member>
+        <member name="M:Enowitsoft.Database.SqlServerHelper.ExecuteSqlTran(System.Collections.Hashtable)">
+            <summary>
+            执行多条SQL语句，实现数据库事务。
+            </summary>
+            <param name="SQLStringList">SQL语句的哈希表（key为sql语句，value是该语句的OracleParameter[]）</param>
+        </member>
+        <member name="M:Enowitsoft.Database.SqlServerHelper.GetSingle(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            获取第一行的第一列
+            </summary>
+            <param name="SQLString"></param>
+            <param name="Times"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.SqlServerHelper.PrepareCommand(System.Data.SqlClient.SqlCommand,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction,System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            关联SqlCommand对象
+            </summary>
+            <param name="cmd"></param>
+            <param name="conn"></param>
+            <param name="trans"></param>
+            <param name="cmdText"></param>
+            <param name="cmdParms"></param>
+        </member>
+        <member name="T:Enowitsoft.Database.SqliteHelper">
+            <summary>
+            Sqlite数据库底层数据操作类
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Database.SqliteHelper.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="contentString">连接字符串</param>
+        </member>
+        <member name="M:Enowitsoft.Database.SqliteHelper.GetMaxID(System.String,System.String)">
+            <summary>
+            获取最大值
+            </summary>
+            <param name="FieldName">列名</param>
+            <param name="TableName">表名</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.SqliteHelper.ExecuteSql(System.String,System.Data.SQLite.SQLiteParameter[])">
+            <summary>
+            执行SQL语句，返回影响的记录数
+            </summary>
+            <param name="SQLString">SQL语句</param>
+            <param name="cmdParms">参数</param>
+            <returns>影响的记录数</returns>
+        </member>
+        <member name="M:Enowitsoft.Database.SqliteHelper.ExecuteNonQueryByProc(System.String,System.Data.SQLite.SQLiteParameter[])">
+            <summary>
+            执行存储过程返回影响的行数
+            </summary>
+            <param name="procName">存储过程名</param>
+            <param name="sp">参数列表</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.SqliteHelper.GetDataSet(System.String,System.Data.SQLite.SQLiteParameter[])">
+            <summary>
+            执行Sql语句返回一个DataSet
+            </summary>
+            <param name="Sql">Sql语句</param>
+            <param name="sp">参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.SqliteHelper.GetDataSetByProc(System.String,System.Data.SQLite.SQLiteParameter[])">
+            <summary>
+            通过存储过程名来返回一个DataSet
+            </summary>
+            <param name="procName">存储过程名</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.SqliteHelper.GetTable(System.String,System.Data.SQLite.SQLiteParameter[])">
+            <summary>
+            获取DataTable
+            </summary>
+            <param name="Sql">Sql语句</param>
+            <param name="sp">参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.SqliteHelper.GetTableByProc(System.String,System.Data.SQLite.SQLiteParameter[])">
+            <summary>
+            执行存储过程来返回一个DataTable
+            </summary>
+            <param name="procName">存储过程名</param>
+            <param name="sp">参数</param>
+            <returns>DataTabel</returns>
+        </member>
+        <member name="M:Enowitsoft.Database.SqliteHelper.ExecuteSqlTran(System.Collections.ArrayList)">
+            <summary>
+            执行多条Sql语句，实现数据库事务
+            </summary>
+            <param name="SQLStringList">Sql语句列表</param>
+            <returns>是否提交完成事务， true-成功，false-失败</returns>
+        </member>
+        <member name="M:Enowitsoft.Database.SqliteHelper.ExecuteSqlTran(System.Collections.Hashtable)">
+            <summary>
+            执行多条SQL语句，实现数据库事务。
+            </summary>
+            <param name="SQLStringList">SQL语句的哈希表（key为sql语句，value是该语句的OracleParameter[]）</param>
+        </member>
+        <member name="M:Enowitsoft.Database.SqliteHelper.GetSingle(System.String,System.Data.SQLite.SQLiteParameter[])">
+            <summary>
+            获取第一行的第一列
+            </summary>
+            <param name="SQLString"></param>
+            <param name="Times"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.SqliteHelper.PrepareCommand(System.Data.SQLite.SQLiteCommand,System.Data.SQLite.SQLiteConnection,System.Data.SQLite.SQLiteTransaction,System.String,System.Data.SQLite.SQLiteParameter[])">
+            <summary>
+            关联SqlCommand对象
+            </summary>
+            <param name="cmd"></param>
+            <param name="conn"></param>
+            <param name="trans"></param>
+            <param name="cmdText"></param>
+            <param name="cmdParms"></param>
+        </member>
+        <member name="T:Enowitsoft.Database.ConnectInfo">
+             <summary>
+            数据库连接字符串解析类
+             </summary>
+        </member>
+        <member name="M:Enowitsoft.Database.ConnectInfo.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="dbType"></param>
+        </member>
+        <member name="M:Enowitsoft.Database.ConnectInfo.IntervalSplit(System.String,System.Char,System.Char)">
+            <summary>
+            截取标识串中的字符
+            </summary>
+            <param name="str">要截取的字符串</param>
+            <param name="start">开始串</param>
+            <param name="end">结束串</param>
+            <returns></returns>
+        </member>
+        <member name="T:Enowitsoft.Database.DatabaseEncryption">
+            <summary>
+            加密类
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Database.DatabaseEncryption._Encrypt(System.String)">
+            <summary>
+            数据库数据加密专用方法
+            </summary>
+            <param name="value">要加密的字符串</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.DatabaseEncryption._Decrypt(System.String)">
+            <summary>
+            数据库数据解密专用方法
+            </summary>
+            <param name="value">要解密的密文</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.DatabaseEncryption._Encrypt(System.String,System.String)">
+            <summary>
+            数据库数据加密专用方法
+            </summary>
+            <param name="value">要加密的字符串</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.DatabaseEncryption._Decrypt(System.String,System.String)">
+            <summary>
+            数据库数据解密专用方法
+            </summary>
+            <param name="value">要解密的密文</param>
+            <param name="key">密钥</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.DatabaseEncryption.Encrypt(System.String,System.String)">
+            <summary>
+            数据库数据加密专用方法
+            </summary>
+            <param name="value">要加密的字符串</param>
+            <param name="key">加密密钥,要求为8位</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.DatabaseEncryption.Decrypt(System.String,System.String)">
+            <summary>
+            数据库数据解密专用方法
+            </summary>
+            <param name="value">要解密的密文</param>
+            <param name="key">加密密钥,要求为8位</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.DatabaseEncryption.Decrypt(System.String)">
+            <summary>
+            数据库数据解密专用方法
+            </summary>
+            <param name="value">要解密的密文</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.DatabaseEncryption.Encrypt(System.String)">
+            <summary>
+            数据库数据加密专用方法
+            </summary>
+            <param name="value">要加密的明文</param>
+            <returns></returns>
+        </member>
+        <member name="T:Enowitsoft.Database.SqlHelper">
+            <summary>
+            数据库底层数据操作类(集合5大数据库1-Access,2-MySql,3-Orcle,4-SqlServer,5-Sqlite)
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Database.SqlHelper.#ctor(System.String,System.String,System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="fileName">配置文件路径</param>
+            <param name="fileDir">数据库文件全路径!针对Sqlite数据库有用</param>
+             <param name="xPath">配置文件数据库类型节点表达式,例如://节点1//节点2</param>
+        </member>
+        <member name="M:Enowitsoft.Database.SqlHelper.GetMaxID(System.String,System.String)">
+            <summary>
+            获取最大值
+            </summary>
+            <param name="FieldName">列名</param>
+            <param name="TableName">表名</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.SqlHelper.ExecuteSql(System.String,System.Data.Common.DbParameter[])">
+            <summary>
+            执行SQL语句，返回影响的记录数
+            </summary>
+            <param name="SQLString">SQL语句</param>
+            <param name="cmdParms">参数</param>
+            <returns>影响的记录数</returns>
+        </member>
+        <member name="M:Enowitsoft.Database.SqlHelper.ExecuteNonQueryByProc(System.String,System.Data.Common.DbParameter[])">
+            <summary>
+            执行存储过程返回影响的行数
+            </summary>
+            <param name="procName">存储过程名</param>
+            <param name="sp">参数列表</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.SqlHelper.GetDataSet(System.String,System.Data.Common.DbParameter[])">
+            <summary>
+            执行Sql语句返回一个DataSet
+            </summary>
+            <param name="Sql">Sql语句</param>
+            <param name="sp">参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.SqlHelper.GetDataSetByProc(System.String,System.Data.Common.DbParameter[])">
+            <summary>
+            通过存储过程名来返回一个DataSet
+            </summary>
+            <param name="procName">存储过程名</param>
+            <param name="sp">参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.SqlHelper.GetTable(System.String,System.Data.Common.DbParameter[])">
+            <summary>
+            获取DataTable
+            </summary>
+            <param name="Sql">Sql语句</param>
+            <param name="sp">参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.SqlHelper.GetTableByProc(System.String,System.Data.Common.DbParameter[])">
+            <summary>
+            执行存储过程来返回一个DataTable
+            </summary>
+            <param name="procName">存储过程名</param>
+            <param name="sp">参数</param>
+            <returns>DataTabel</returns>
+        </member>
+        <member name="M:Enowitsoft.Database.SqlHelper.ExecuteSqlTran(System.Collections.ArrayList)">
+            <summary>
+            执行多条Sql语句，实现数据库事务
+            </summary>
+            <param name="SQLStringList">Sql语句列表</param>
+            <returns>是否提交完成事务， true-成功，false-失败</returns>
+        </member>
+        <member name="M:Enowitsoft.Database.SqlHelper.ExecuteSqlTran(System.Collections.Hashtable)">
+            <summary>
+            执行多条SQL语句，实现数据库事务。
+            </summary>
+            <param name="SQLStringList">SQL语句的哈希表（key为sql语句，value是该语句的OracleParameter[]）</param>
+        </member>
+        <member name="M:Enowitsoft.Database.SqlHelper.GetSingle(System.String,System.Object[])">
+            <summary>
+            获取第一行的第一列
+            </summary>
+            <param name="SQLString"></param>
+            <param name="Times"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.SqlHelper.ConvertSqlParameter(System.Data.Common.DbParameter[])">
+            <summary>
+            SqlParameter转换格式
+            </summary>
+            <param name="commandParameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.SqlHelper.ConvertMySqlParameter(System.Data.Common.DbParameter[])">
+            <summary>
+            MySqlParameter转换格式
+            </summary>
+            <param name="commandParameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.SqlHelper.ConvertOleDbParameter(System.Data.Common.DbParameter[])">
+            <summary>
+            OleDbParameter转换格式
+            </summary>
+            <param name="commandParameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.SqlHelper.ConvertOrcleParameter(System.Data.Common.DbParameter[])">
+            <summary>
+            OracleParameter转换格式
+            </summary>
+            <param name="commandParameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.SqlHelper.ConvertSQLiteParameter(System.Data.Common.DbParameter[])">
+            <summary>
+            SQLiteParameter转换格式
+            </summary>
+            <param name="commandParameters"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Enowitsoft.Database.DataType">
+            <summary>
+            数据库类型
+            </summary>
+        </member>
+        <member name="F:Enowitsoft.Database.DataType.SERVERSQL">
+            <summary>
+            SqlServer数据库
+            </summary>
+        </member>
+        <member name="F:Enowitsoft.Database.DataType.MYSQL">
+            <summary>
+            MySql数据库
+            </summary>
+        </member>
+        <member name="F:Enowitsoft.Database.DataType.ORCLE">
+            <summary>
+            Orcle数据库
+            </summary>
+        </member>
+        <member name="F:Enowitsoft.Database.DataType.ACCESS">
+            <summary>
+            Access数据库
+            </summary>
+        </member>
+        <member name="T:Enowitsoft.Database.Common">
+            <summary>
+            Enowit科技公司
+            创建人@谢华良
+            时间2013年4月7日
+            目标 数据库底层操作类公共方法类
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Database.Common._CreateXmlSecond(Enowitsoft.Database.DataType,System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            创建数据库配置文件
+            </summary>
+            <param name="dbType">数据库类型</param>
+            <param name="fileName">文件全称</param>
+            <param name="dict">节点指点key-节点,value--节点文本</param>
+        </member>
+        <member name="M:Enowitsoft.Database.Common.CreateXml(Enowitsoft.Database.DataType,System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            创建数据库配置文件
+            </summary>
+            <param name="dbType">数据库类型</param>
+            <param name="fileName">文件全称</param>
+            <param name="dict">节点指点key-节点,value--节点文本</param>
+        </member>
+        <member name="M:Enowitsoft.Database.Common._ReadRootNode(System.String,System.String)">
+            <summary>
+            读取XML根节点
+            </summary>
+            <param name="fileName">文件全名称</param>
+            <param name="node"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.Common._ReadNode(System.String,System.String)">
+            <summary>
+            获取XMl文件的节点
+            </summary>
+            <param name="fileName">文件名称</param>
+            <param name="node">节点表达式:例如//节点1//节点2</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.Common._ReadNode(System.String,System.String,System.String)">
+            <summary>
+            根据节点属性和属性值来获取节点文本
+            </summary>
+            <param name="fileName">XML文件路径全称</param>
+            <param name="attribute">属性名称</param>
+            <param name="key">属性值</param>
+            <returns>节点文本</returns>
+        </member>
+        <member name="M:Enowitsoft.Database.Common.GetText(System.Xml.XmlNode,System.String,System.String)">
+            <summary>
+            循环遍历节点获取节点文本值
+            </summary>
+            <param name="root">遍历的开始节点</param>
+            <param name="attribute">属性名称</param>
+            <param name="key">属性值</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.Common.ReadRootNode(System.String,System.String)">
+            <summary>
+            读取XML根节点
+            </summary>
+            <param name="fileName">文件名</param>
+            <param name="node">节点</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.Common.ReadNode(System.String,System.String)">
+            <summary>
+            读取XMl文件的节点
+            </summary>
+            <param name="fileName">文件名称</param>
+            <param name="node">节点表达式:例如//节点1//节点2</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.Common.ReadNode(System.String,System.String,System.String)">
+            <summary>
+            根据节点属性和属性值来获取节点文本
+            </summary>
+            <param name="fileName">XML文件路径全称</param>
+            <param name="attributeName">属性名称</param>
+            <param name="key">属性值</param>
+            <returns>节点文本</returns>
+        </member>
+        <member name="T:Enowitsoft.Database.MySqlHelper">
+            <summary>
+            MySql数据库底层数据操作类
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Database.MySqlHelper.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="contentString">连接字符串</param>
+        </member>
+        <member name="M:Enowitsoft.Database.MySqlHelper.GetMaxID(System.String,System.String)">
+            <summary>
+            获取最大值
+            </summary>
+            <param name="FieldName">列名</param>
+            <param name="TableName">表名</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.MySqlHelper.ExecuteSql(System.String,MySql.Data.MySqlClient.MySqlParameter[])">
+            <summary>
+            执行SQL语句，返回影响的记录数
+            </summary>
+            <param name="SQLString">SQL语句</param>
+            <param name="cmdParms">参数</param>
+            <returns>影响的记录数</returns>
+        </member>
+        <member name="M:Enowitsoft.Database.MySqlHelper.ExecuteNonQueryByProc(System.String,MySql.Data.MySqlClient.MySqlParameter[])">
+            <summary>
+            执行存储过程返回影响的行数
+            </summary>
+            <param name="procName">存储过程名</param>
+            <param name="sp">参数列表</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.MySqlHelper.GetDataSet(System.String,MySql.Data.MySqlClient.MySqlParameter[])">
+            <summary>
+            执行Sql语句返回一个DataSet
+            </summary>
+            <param name="Sql">Sql语句</param>
+            <param name="sp">参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.MySqlHelper.GetDataSetByProc(System.String,MySql.Data.MySqlClient.MySqlParameter[])">
+            <summary>
+            通过存储过程名来返回一个DataSet
+            </summary>
+            <param name="procName">存储过程名</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.MySqlHelper.GetTable(System.String,MySql.Data.MySqlClient.MySqlParameter[])">
+            <summary>
+            获取DataTable
+            </summary>
+            <param name="Sql">Sql语句</param>
+            <param name="sp">参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.MySqlHelper.GetTableByProc(System.String,MySql.Data.MySqlClient.MySqlParameter[])">
+            <summary>
+            执行存储过程来返回一个DataTable
+            </summary>
+            <param name="procName">存储过程名</param>
+            <param name="sp">参数</param>
+            <returns>DataTabel</returns>
+        </member>
+        <member name="M:Enowitsoft.Database.MySqlHelper.ExecuteSqlTran(System.Collections.ArrayList)">
+            <summary>
+            执行多条Sql语句，实现数据库事务
+            </summary>
+            <param name="SQLStringList">Sql语句列表</param>
+            <returns>是否提交完成事务， true-成功，false-失败</returns>
+        </member>
+        <member name="M:Enowitsoft.Database.MySqlHelper.ExecuteSqlTran(System.Collections.Hashtable)">
+            <summary>
+            执行多条SQL语句，实现数据库事务。
+            </summary>
+            <param name="SQLStringList">SQL语句的哈希表（key为sql语句，value是该语句的OracleParameter[]）</param>
+        </member>
+        <member name="M:Enowitsoft.Database.MySqlHelper.GetSingle(System.String,MySql.Data.MySqlClient.MySqlParameter[])">
+            <summary>
+            获取第一行的第一列
+            </summary>
+            <param name="SQLString"></param>
+            <param name="Times"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Database.MySqlHelper.PrepareCommand(MySql.Data.MySqlClient.MySqlCommand,MySql.Data.MySqlClient.MySqlConnection,MySql.Data.MySqlClient.MySqlTransaction,System.String,MySql.Data.MySqlClient.MySqlParameter[])">
+            <summary>
+            关联SqlCommand对象
+            </summary>
+            <param name="cmd"></param>
+            <param name="conn"></param>
+            <param name="trans"></param>
+            <param name="cmdText"></param>
+            <param name="cmdParms"></param>
+        </member>
+    </members>
+</doc>

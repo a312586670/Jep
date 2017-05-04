@@ -1,0 +1,4 @@
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Encryption\bin\Release\Enowitsoft.Encryption.dll
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Encryption\bin\Release\Enowitsoft.Encryption.pdb
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Encryption\obj\Release\Enowitsoft.Encryption.dll
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Encryption\obj\Release\Enowitsoft.Encryption.pdb

@@ -1,0 +1,340 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Enowitsoft.Text</name>
+    </assembly>
+    <members>
+        <member name="T:Enowitsoft.Text.CheckString">
+            <summary>
+            验证字符串类
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Text.CheckString.CheckIDCard(System.String)">
+            <summary>
+            身份证验证
+            </summary>
+            <param name="IdCard">身份证号</param>
+            <returns>bool值</returns>
+        </member>
+        <member name="M:Enowitsoft.Text.CheckString.CheckIDCard18(System.String)">
+            <summary>
+            18位身份证验证
+            </summary>
+            <param name="Id">身份证号</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Text.CheckString.CheckIDCard15(System.String)">
+            <summary>
+            15位身份证验证
+            </summary>
+            <param name="Id">身份证号</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Text.CheckString.IsTellPhone(System.String)">
+            <summary>
+            验证是否是电话号码
+            </summary>
+            <param name="input">要验证的电话号码(除手机号码)</param>
+            <returns>bool</returns>
+        </member>
+        <member name="M:Enowitsoft.Text.CheckString.IsMobilePhone(System.String)">
+            <summary>
+            验证是否是手机号码
+            </summary>
+            <param name="input">要验证的手机号码</param>
+            <returns>bool</returns>
+        </member>
+        <member name="M:Enowitsoft.Text.CheckString.IsTell(System.String)">
+            <summary>
+            验证电话号码
+            </summary>
+            <param name="input"></param>
+            <returns>bool</returns>
+        </member>
+        <member name="M:Enowitsoft.Text.CheckString.IsPostalCode(System.String)">
+            <summary>
+            验证是否是邮编
+            </summary>
+            <param name="input">要验证的邮编号码</param>
+            <returns>bool</returns>
+        </member>
+        <member name="M:Enowitsoft.Text.CheckString.HasUrl(System.String)">
+            <summary>
+            验证是否是有效网址
+            </summary>
+            <param name="url">要验证的网址</param>
+            <returns>bool</returns>
+        </member>
+        <member name="M:Enowitsoft.Text.CheckString._IsValidInput(System.String@)">
+            <summary>
+            检测客户输入的字符串是否有效,并将原始字符串修改为有效字符串或空字符串。
+            当检测到客户的输入中有攻击性危险字符串,则返回false,有效返回true。
+            </summary>
+            <param name="input">要检测的字符串</param>
+            <returns>bool</returns>
+        </member>
+        <member name="M:Enowitsoft.Text.CheckString.IsValidInput(System.String@)">
+            <summary>
+            检测客户输入的字符串是否有效,并将原始字符串修改为有效字符串或空字符串。
+            当检测到客户的输入中有攻击性危险字符串,则返回false,有效返回true。
+            </summary>
+            <param name="input">要检测的字符串</param>
+            <returns>bool</returns>
+        </member>
+        <member name="T:Enowitsoft.Text.EnowitRMB">
+            <summary>
+            人民币的操作类
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Text.EnowitRMB._RMBConver(System.Decimal)">
+            <summary> 
+            转换人民币大小金额 
+            </summary> 
+            <param name="money">金额</param> 
+            <returns>返回大写形式</returns> 
+        </member>
+        <member name="M:Enowitsoft.Text.EnowitRMB.RMBConver(System.Decimal)">
+            <summary>
+            人民币转换成大写
+            </summary>
+            <param name="money">money</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:Enowitsoft.Text.EnowitRMB.RMBConver(System.String)">
+            <summary> 
+            一个重载，将字符串先转换成数字在调用CmycurD(decimal num) 
+            </summary> 
+            <param name="num">用户输入的金额，字符串形式未转成decimal</param> 
+            <returns></returns> 
+        </member>
+        <member name="T:Enowitsoft.Text.EnowitString">
+            <summary>
+            字符串帮助类
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Text.EnowitString._GetStrArray(System.String,System.Char,System.Boolean)">
+            <summary>
+            把字符串按照分隔符转换成 List
+            </summary>
+            <param name="input">源字符串</param>
+            <param name="speater">分隔符</param>
+            <param name="toLower">是否转换为小写</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Text.EnowitString.GetStrArray(System.String,System.Char,System.Boolean)">
+            <summary>
+            把字符串按照分隔符转换成 List
+            </summary>
+            <param name="input">源字符串</param>
+            <param name="speater">分隔符</param>
+            <param name="Flag">是否转换成小写</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Text.EnowitString._GetStrArray(System.String)">
+            <summary>
+            把字符串转 按照“,” 分割 换为数据
+            </summary>
+            <param name="input">源字符串</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Text.EnowitString.GetStrArray(System.String)">
+            <summary>
+            把字符串转 按照“,” 分割 换为数据
+            </summary>
+            <param name="str">源字符串</param>
+            <returns>string[]</returns>
+        </member>
+        <!-- 对于成员“M:Enowitsoft.Text.EnowitString._GetArrayStr(System.Collections.Generic.List{System.String},System.String)”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:Enowitsoft.Text.EnowitString.GetArrayStr(System.Collections.Generic.List{System.String},System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="M:Enowitsoft.Text.EnowitString._GetArrayStr(System.Collections.Generic.List{System.Int32},System.String)">
+            <summary>
+            得到数组列表以分隔符分隔的字符串，默认为逗号分隔
+            </summary>
+            <param name="list">list集合</param>
+            <param name="speater">分隔符</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:Enowitsoft.Text.EnowitString.GetArrayStr(System.Collections.Generic.List{System.Int32},System.String)">
+            <summary>
+            得到数组列表以分隔符分隔的字符串，默认为逗号分隔
+            </summary>
+            <param name="list">list集合</param>
+            <param name="speater">分隔符</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:Enowitsoft.Text.EnowitString._GetArrayValueStr(System.Collections.Generic.Dictionary{System.Int32,System.Int32})">
+            <summary>
+            得到字典中以value为数组列表以逗号分隔的字符串
+            </summary>
+            <param name="list">Dictionary的字典</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:Enowitsoft.Text.EnowitString.GetArrayValueStr(System.Collections.Generic.Dictionary{System.Int32,System.Int32})">
+            <summary>
+            得到字典中以value为数组列表以逗号分隔的字符串
+            </summary>
+            <param name="list">Dictionary的字典</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:Enowitsoft.Text.EnowitString.DelLastComma(System.String)">
+            <summary>
+            删除最后结尾的一个逗号
+            </summary>
+            <param name="input">输入字符串</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Text.EnowitString.DelLastChar(System.String,System.String)">
+            <summary>
+            删除最后结尾的指定字符后的字符
+            </summary>
+            <param name="input">输入字符串</param>
+            <param name="input">最后结尾的字符串</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Text.EnowitString._ToSBC(System.String)">
+            <summary>
+            转全角的函数(SBC case)
+            </summary>
+            <param name="input">输入字符串</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Text.EnowitString.ToSBC(System.String)">
+            <summary>
+            转全角的函数(SBC CASE)
+            </summary>
+            <param name="input">输入的字符串</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:Enowitsoft.Text.EnowitString._ToDBC(System.String)">
+            <summary>
+             转半角的函数(DBC CASE)
+            </summary>
+            <param name="input">输入</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:Enowitsoft.Text.EnowitString.ToDBC(System.String)">
+            <summary>
+             转半角的函数(DBC CASE)
+            </summary>
+            <param name="input">输入</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:Enowitsoft.Text.EnowitString._GetNoRepeatList(System.String,System.Char)">
+            <summary>
+            把字符串按照指定分隔符装成 List 去除重复
+            </summary>
+            <param name="input">源字符串</param>
+            <param name="sepeater">分隔符</param>
+            <returns>List</returns>
+        </member>
+        <member name="M:Enowitsoft.Text.EnowitString.GetNoRepeatList(System.String,System.Char)">
+            <summary>
+            把字符串按照指定分隔符装成 List 去除重复
+            </summary>
+            <param name="input">源字符串</param>
+            <param name="sepeater">分隔符</param>
+            <returns>List</returns>
+        </member>
+        <member name="M:Enowitsoft.Text.EnowitString._SplitMulti(System.String,System.String)">
+            <summary>
+            根据正则表达式来输出字符串数组
+            </summary>
+            <param name="input">输入</param>
+            <param name="pattern">正则表达式</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Text.EnowitString.SplitMulti(System.String,System.String)">
+            <summary>
+            根据正则表达式来输出字符串数组
+            </summary>
+            <param name="input">输入</param>
+            <param name="pattern">正则表达式</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Text.EnowitString.IsNumberId(System.String)">
+            <summary>
+            判断是否是纯数字
+            </summary>
+            <param name="input">需验证的字符串。。</param>
+            <returns>是否合法的bool值。</returns>
+        </member>
+        <member name="M:Enowitsoft.Text.EnowitString._IsMatch(System.String,System.String)">
+            <summary>
+            快速验证一个字符串是否符合指定的正则表达式。
+            </summary>
+            <param name="input">需验证的字符串。</param>
+            <param name="pattern">正则表达式的内容。</param>
+            <returns>是否合法的bool值。</returns>
+        </member>
+        <member name="M:Enowitsoft.Text.EnowitString.IsMatch(System.String,System.String)">
+            <summary>
+            指定表达式在字符串中是否找到匹配项
+            </summary>
+            <param name="input">需验证的字符串。</param>
+            <param name="pattern">正则表达式的内容。</param>
+            <returns>是否合法的bool值。</returns>
+        </member>
+        <member name="M:Enowitsoft.Text.EnowitString.GetMD5(System.String)">
+            <summary>
+            根据配置对指定字符串进行 MD5 加密
+            </summary>
+            <param name="input">要加密的字符串</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:Enowitsoft.Text.EnowitString._FilterHtml(System.String)">
+             <summary>
+            过滤HTMl
+             </summary>
+             <param name="strHtml">Html文本</param>
+             <returns>string</returns>
+        </member>
+        <member name="M:Enowitsoft.Text.EnowitString.FilterHtml(System.String)">
+            <summary>
+            过滤html
+            </summary>
+            <param name="inputHtml">输入html</param>
+            <returns>过滤后的text文本</returns>
+        </member>
+        <member name="M:Enowitsoft.Text.EnowitString.IsNullOrEmpty``1(``0)">
+            <summary>
+            判断对象是否为空，为空返回true
+            </summary>
+            <typeparam name="T">要验证的对象的类型</typeparam>
+            <param name="data">要验证的对象</param>        
+        </member>
+        <member name="M:Enowitsoft.Text.EnowitString.IsNullOrEmpty(System.Object)">
+            <summary>
+            判断对象是否为空，为空返回true
+            </summary>
+            <param name="data">要验证的对象</param>
+        </member>
+        <member name="M:Enowitsoft.Text.EnowitString._ConvertCh(System.String)">
+            <summary>
+            汉字转换成全拼的拼音
+            </summary>
+            <param name="Chstr">汉字字符串</param>
+            <returns>转换后的拼音字符串</returns>
+        </member>
+        <member name="M:Enowitsoft.Text.EnowitString.ConvertCh(System.String)">
+            <summary>
+            汉字转换成全拼的拼音
+            </summary>
+            <param name="Chstr">汉字字符串</param>
+            <returns>转换后的拼音字符串</returns>
+        </member>
+        <member name="M:Enowitsoft.Text.EnowitString.GetCodstring(System.String)">
+            <summary>
+            取汉字拼音的首字母
+            </summary>
+            <param name="UnName">汉字</param>
+            <returns>首字母</returns>
+        </member>
+        <member name="M:Enowitsoft.Text.EnowitString.GetFirstLetter(System.String)">
+            <summary>
+            取汉字的首字母
+            </summary>
+            <param name="UnName">汉字</param>
+            <returns>string</returns>
+        </member>
+    </members>
+</doc>

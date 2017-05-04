@@ -1,0 +1,83 @@
+E:\谢华良\demo\Enowit_OfficeText\Enowitsoft.Office\bin\Debug\Enowitsoft.Office.dll
+E:\谢华良\demo\Enowit_OfficeText\Enowitsoft.Office\bin\Debug\Enowitsoft.Office.pdb
+E:\谢华良\demo\Enowit_OfficeText\Enowitsoft.Office\obj\Debug\Enowitsoft.Office.dll
+E:\谢华良\demo\Enowit_OfficeText\Enowitsoft.Office\obj\Debug\Enowitsoft.Office.pdb
+E:\谢华良\demo\Enowit_OfficeText\Enowitsoft.Office\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\谢华良\demo\Enowit_OfficeText\Enowitsoft.Office\bin\Debug\office.dll
+E:\谢华良\demo\Enowit_OfficeText\Enowitsoft.Office\bin\Debug\Microsoft.Office.Interop.Excel.xml
+E:\谢华良\demo\Enowit_OfficeText\Enowitsoft.Office\bin\Debug\office.xml
+E:\谢华良\demo\Enowit_OfficeText\Enowitsoft.Office\obj\Debug\Enowitsoft.Office.csprojResolveAssemblyReference.cache
+E:\谢华良\代码库\Enowitsoft\Enowitsoft.Office\bin\Debug\Enowitsoft.Office.dll
+E:\谢华良\代码库\Enowitsoft\Enowitsoft.Office\bin\Debug\Enowitsoft.Office.pdb
+E:\谢华良\代码库\Enowitsoft\Enowitsoft.Office\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\谢华良\代码库\Enowitsoft\Enowitsoft.Office\bin\Debug\office.dll
+E:\谢华良\代码库\Enowitsoft\Enowitsoft.Office\bin\Debug\Microsoft.Office.Interop.Excel.xml
+E:\谢华良\代码库\Enowitsoft\Enowitsoft.Office\bin\Debug\office.xml
+E:\谢华良\代码库\Enowitsoft\Enowitsoft.Office\obj\Debug\Enowitsoft.Office.dll
+E:\谢华良\代码库\Enowitsoft\Enowitsoft.Office\obj\Debug\Enowitsoft.Office.pdb
+E:\Enowit Code\Enowitsoft\Enowitsoft.Office\bin\Debug\Enowitsoft.Office.dll
+E:\Enowit Code\Enowitsoft\Enowitsoft.Office\bin\Debug\Enowitsoft.Office.pdb
+E:\Enowit Code\Enowitsoft\Enowitsoft.Office\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\Enowit Code\Enowitsoft\Enowitsoft.Office\bin\Debug\office.dll
+E:\Enowit Code\Enowitsoft\Enowitsoft.Office\bin\Debug\Microsoft.Office.Interop.Excel.xml
+E:\Enowit Code\Enowitsoft\Enowitsoft.Office\bin\Debug\office.xml
+E:\Enowit Code\Enowitsoft\Enowitsoft.Office\obj\Debug\Enowitsoft.Office.dll
+E:\Enowit Code\Enowitsoft\Enowitsoft.Office\obj\Debug\Enowitsoft.Office.pdb
+E:\Enowit Code\Enowitsoft\Enowitsoft.Office\bin\Debug\Enowitsoft.Office.XML
+I:\类库\Enowitsoft\Enowitsoft.Office\bin\Debug\Enowitsoft.Office.XML
+I:\类库\Enowitsoft\Enowitsoft.Office\bin\Debug\Enowitsoft.Office.dll
+I:\类库\Enowitsoft\Enowitsoft.Office\bin\Debug\Enowitsoft.Office.pdb
+I:\类库\Enowitsoft\Enowitsoft.Office\obj\Debug\ResolveAssemblyReference.cache
+I:\类库\Enowitsoft\Enowitsoft.Office\obj\Debug\Enowitsoft.Office.dll
+I:\类库\Enowitsoft\Enowitsoft.Office\obj\Debug\Enowitsoft.Office.pdb
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Enowitsoft.Office\bin\Debug\Enowitsoft.Office.XML
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Enowitsoft.Office\bin\Debug\Enowitsoft.Office.dll
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Enowitsoft.Office\bin\Debug\Enowitsoft.Office.pdb
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Enowitsoft.Office\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Enowitsoft.Office\bin\Debug\office.dll
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Enowitsoft.Office\bin\Debug\Microsoft.Office.Interop.Excel.xml
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Enowitsoft.Office\bin\Debug\office.xml
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Enowitsoft.Office\obj\Debug\Enowitsoft.Office.dll
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Enowitsoft.Office\obj\Debug\Enowitsoft.Office.pdb
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Enowitsoft.Office\obj\Debug\Enowitsoft.Office.csprojResolveAssemblyReference.cache
+D:\项目\类库\Enowitsoft\Enowitsoft.Office\bin\Debug\Enowitsoft.Office.XML
+D:\项目\类库\Enowitsoft\Enowitsoft.Office\bin\Debug\Enowitsoft.Office.dll
+D:\项目\类库\Enowitsoft\Enowitsoft.Office\bin\Debug\Enowitsoft.Office.pdb
+D:\项目\类库\Enowitsoft\Enowitsoft.Office\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\项目\类库\Enowitsoft\Enowitsoft.Office\bin\Debug\office.dll
+D:\项目\类库\Enowitsoft\Enowitsoft.Office\bin\Debug\Microsoft.Office.Interop.Excel.xml
+D:\项目\类库\Enowitsoft\Enowitsoft.Office\bin\Debug\office.xml
+D:\项目\类库\Enowitsoft\Enowitsoft.Office\obj\Debug\Enowitsoft.Office.dll
+D:\项目\类库\Enowitsoft\Enowitsoft.Office\obj\Debug\Enowitsoft.Office.pdb
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Enowitsoft.Office\bin\Debug\Enowitsoft.Office.dll
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Enowitsoft.Office\bin\Debug\Enowitsoft.Office.pdb
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Enowitsoft.Office\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Enowitsoft.Office\bin\Debug\office.dll
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Enowitsoft.Office\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Enowitsoft.Office\bin\Debug\Microsoft.Office.Interop.Excel.xml
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Enowitsoft.Office\bin\Debug\office.xml
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Enowitsoft.Office\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Enowitsoft.Office\obj\Debug\Enowitsoft.Office.dll
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Enowitsoft.Office\obj\Debug\Enowitsoft.Office.pdb
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.Office\bin\Debug\Enowitsoft.Office.XML
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.Office\bin\Debug\Enowitsoft.Office.dll
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.Office\bin\Debug\Enowitsoft.Office.pdb
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.Office\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.Office\bin\Debug\office.dll
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.Office\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.Office\bin\Debug\Microsoft.Office.Interop.Excel.xml
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.Office\bin\Debug\office.xml
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.Office\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.Office\obj\Debug\Enowitsoft.Office.dll
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.Office\obj\Debug\Enowitsoft.Office.pdb
+D:\项目\类库\Enowitsoft\Enowitsoft.Office\obj\Debug\Enowitsoft.Office.csprojResolveAssemblyReference.cache
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Office\bin\Debug\Enowitsoft.Office.XML
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Office\bin\Debug\Enowitsoft.Office.dll
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Office\bin\Debug\Enowitsoft.Office.pdb
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Office\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Office\bin\Debug\office.dll
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Office\bin\Debug\Microsoft.Office.Interop.Excel.xml
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Office\bin\Debug\office.xml
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Office\obj\Debug\Enowitsoft.Office.csprojResolveAssemblyReference.cache
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Office\obj\Debug\Enowitsoft.Office.dll
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Office\obj\Debug\Enowitsoft.Office.pdb

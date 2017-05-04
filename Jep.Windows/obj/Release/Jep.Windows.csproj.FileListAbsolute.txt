@@ -1,0 +1,8 @@
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Windows\bin\Release\Enowitsoft.Windows.dll
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Windows\bin\Release\Enowitsoft.Windows.pdb
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Windows\obj\Release\Enowitsoft.Windows.dll
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Windows\obj\Release\Enowitsoft.Windows.pdb
+D:\项目\project\jep\Jep.Windows\bin\Release\Enowitsoft.Windows.dll
+D:\项目\project\jep\Jep.Windows\bin\Release\Enowitsoft.Windows.pdb
+D:\项目\project\jep\Jep.Windows\obj\Release\Enowitsoft.Windows.dll
+D:\项目\project\jep\Jep.Windows\obj\Release\Enowitsoft.Windows.pdb

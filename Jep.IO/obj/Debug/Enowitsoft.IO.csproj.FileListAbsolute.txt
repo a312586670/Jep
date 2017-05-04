@@ -1,0 +1,71 @@
+E:\Enowit Code\Enowitsoft\Enowitsoft.IO\bin\Debug\Enowitsoft.IO.dll
+E:\Enowit Code\Enowitsoft\Enowitsoft.IO\bin\Debug\Enowitsoft.IO.pdb
+E:\Enowit Code\Enowitsoft\Enowitsoft.IO\bin\Debug\Eastonsoft.SharpZipLib.dll
+E:\Enowit Code\Enowitsoft\Enowitsoft.IO\bin\Debug\Eastonsoft.SharpZipLib.pdb
+E:\Enowit Code\Enowitsoft\Enowitsoft.IO\bin\Debug\Eastonsoft.SharpZipLib.xml
+E:\Enowit Code\Enowitsoft\Enowitsoft.IO\obj\Debug\Enowitsoft.IO.csprojResolveAssemblyReference.cache
+E:\Enowit Code\Enowitsoft\Enowitsoft.IO\obj\Debug\Enowitsoft.IO.dll
+E:\Enowit Code\Enowitsoft\Enowitsoft.IO\obj\Debug\Enowitsoft.IO.pdb
+E:\Enowit Code\Enowitsoft\Enowitsoft.IO\bin\Debug\Enowitsoft.Xml.dll
+E:\Enowit Code\Enowitsoft\Enowitsoft.IO\bin\Debug\Enowitsoft.Xml.pdb
+E:\Enowit Code\Enowitsoft\Enowitsoft.IO\bin\Debug\Enowitsoft.Xml.xml
+E:\Enowit Code\Enowitsoft\Enowitsoft.IO\bin\Debug\Enowitsoft.IO.XML
+I:\类库\Enowitsoft\Enowitsoft.IO\bin\Debug\Enowitsoft.IO.XML
+I:\类库\Enowitsoft\Enowitsoft.IO\bin\Debug\Enowitsoft.IO.dll
+I:\类库\Enowitsoft\Enowitsoft.IO\bin\Debug\Enowitsoft.IO.pdb
+I:\类库\Enowitsoft\Enowitsoft.IO\bin\Debug\Eastonsoft.SharpZipLib.dll
+I:\类库\Enowitsoft\Enowitsoft.IO\bin\Debug\Enowitsoft.Xml.dll
+I:\类库\Enowitsoft\Enowitsoft.IO\bin\Debug\Eastonsoft.SharpZipLib.pdb
+I:\类库\Enowitsoft\Enowitsoft.IO\bin\Debug\Eastonsoft.SharpZipLib.xml
+I:\类库\Enowitsoft\Enowitsoft.IO\bin\Debug\Enowitsoft.Xml.pdb
+I:\类库\Enowitsoft\Enowitsoft.IO\bin\Debug\Enowitsoft.Xml.xml
+I:\类库\Enowitsoft\Enowitsoft.IO\obj\Debug\ResolveAssemblyReference.cache
+I:\类库\Enowitsoft\Enowitsoft.IO\obj\Debug\Enowitsoft.IO.dll
+I:\类库\Enowitsoft\Enowitsoft.IO\obj\Debug\Enowitsoft.IO.pdb
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Enowitsoft.IO\bin\Debug\Enowitsoft.IO.XML
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Enowitsoft.IO\bin\Debug\Enowitsoft.IO.dll
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Enowitsoft.IO\bin\Debug\Enowitsoft.IO.pdb
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Enowitsoft.IO\bin\Debug\Eastonsoft.SharpZipLib.dll
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Enowitsoft.IO\bin\Debug\Enowitsoft.Xml.dll
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Enowitsoft.IO\bin\Debug\Eastonsoft.SharpZipLib.pdb
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Enowitsoft.IO\bin\Debug\Eastonsoft.SharpZipLib.xml
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Enowitsoft.IO\bin\Debug\Enowitsoft.Xml.pdb
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Enowitsoft.IO\bin\Debug\Enowitsoft.Xml.xml
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Enowitsoft.IO\obj\Debug\Enowitsoft.IO.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Enowitsoft.IO\obj\Debug\Enowitsoft.IO.dll
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Enowitsoft.IO\obj\Debug\Enowitsoft.IO.pdb
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Enowitsoft.IO\bin\Debug\Enowitsoft.IO.dll
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Enowitsoft.IO\bin\Debug\Enowitsoft.IO.pdb
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Enowitsoft.IO\bin\Debug\Eastonsoft.SharpZipLib.dll
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Enowitsoft.IO\bin\Debug\Enowitsoft.Xml.dll
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Enowitsoft.IO\bin\Debug\Eastonsoft.SharpZipLib.pdb
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Enowitsoft.IO\bin\Debug\Eastonsoft.SharpZipLib.xml
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Enowitsoft.IO\bin\Debug\Enowitsoft.Xml.pdb
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Enowitsoft.IO\bin\Debug\Enowitsoft.Xml.xml
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Enowitsoft.IO\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Enowitsoft.IO\obj\Debug\Enowitsoft.IO.dll
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Enowitsoft.IO\obj\Debug\Enowitsoft.IO.pdb
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.IO\bin\Debug\Enowitsoft.IO.XML
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.IO\bin\Debug\Enowitsoft.IO.dll
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.IO\bin\Debug\Enowitsoft.IO.pdb
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.IO\bin\Debug\Eastonsoft.SharpZipLib.dll
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.IO\bin\Debug\Enowitsoft.Xml.dll
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.IO\bin\Debug\Eastonsoft.SharpZipLib.pdb
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.IO\bin\Debug\Eastonsoft.SharpZipLib.xml
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.IO\bin\Debug\Enowitsoft.Xml.pdb
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.IO\bin\Debug\Enowitsoft.Xml.xml
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.IO\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.IO\obj\Debug\Enowitsoft.IO.dll
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.IO\obj\Debug\Enowitsoft.IO.pdb
+D:\项目\类库\Enowitsoft\Enowitsoft.IO\bin\Debug\Enowitsoft.IO.XML
+D:\项目\类库\Enowitsoft\Enowitsoft.IO\bin\Debug\Enowitsoft.IO.dll
+D:\项目\类库\Enowitsoft\Enowitsoft.IO\bin\Debug\Enowitsoft.IO.pdb
+D:\项目\类库\Enowitsoft\Enowitsoft.IO\bin\Debug\Eastonsoft.SharpZipLib.dll
+D:\项目\类库\Enowitsoft\Enowitsoft.IO\bin\Debug\Enowitsoft.Xml.dll
+D:\项目\类库\Enowitsoft\Enowitsoft.IO\bin\Debug\Eastonsoft.SharpZipLib.pdb
+D:\项目\类库\Enowitsoft\Enowitsoft.IO\bin\Debug\Eastonsoft.SharpZipLib.xml
+D:\项目\类库\Enowitsoft\Enowitsoft.IO\bin\Debug\Enowitsoft.Xml.pdb
+D:\项目\类库\Enowitsoft\Enowitsoft.IO\bin\Debug\Enowitsoft.Xml.xml
+D:\项目\类库\Enowitsoft\Enowitsoft.IO\obj\Debug\Enowitsoft.IO.csprojResolveAssemblyReference.cache
+D:\项目\类库\Enowitsoft\Enowitsoft.IO\obj\Debug\Enowitsoft.IO.dll
+D:\项目\类库\Enowitsoft\Enowitsoft.IO\obj\Debug\Enowitsoft.IO.pdb

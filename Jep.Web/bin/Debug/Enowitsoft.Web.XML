@@ -1,0 +1,259 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Enowitsoft.Web</name>
+    </assembly>
+    <members>
+        <member name="T:Enowitsoft.Web.EnowitCache">
+            <summary>
+            缓存操作类
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Web.EnowitCache.GetCache(System.String)">
+            <summary>
+            获取数据缓存
+            </summary>
+            <param name="key">键</param>
+        </member>
+        <member name="M:Enowitsoft.Web.EnowitCache.SetCache(System.String,System.Object)">
+            <summary>
+            设置缓存
+            </summary>
+            <param name="key">键</param>
+            <param name="value">值</param>
+        </member>
+        <member name="M:Enowitsoft.Web.EnowitCache.SetCache(System.String,System.Object,System.TimeSpan)">
+            <summary>
+            设置数据缓存
+            </summary>
+            <param name="key">键</param>
+            <param name="value">值</param>
+            <param name="Timeout">间隔时间</param>
+        </member>
+        <member name="M:Enowitsoft.Web.EnowitCache.SetCache(System.String,System.Object,System.DateTime,System.TimeSpan)">
+            <summary>
+            设置暑假缓存
+            </summary>
+            <param name="key">键</param>
+            <param name="value">值</param>
+            <param name="absoluteExpiration">到期时间</param>
+            <param name="slidingExpiration">间隔时间</param>
+        </member>
+        <member name="M:Enowitsoft.Web.EnowitCache.RemoveAllCache(System.String)">
+            <summary>
+            移除指定数据缓存
+            </summary>
+            <param name="key">键</param>
+        </member>
+        <member name="M:Enowitsoft.Web.EnowitCache.RemoveAllCache">
+            <summary>
+            移除全部数据缓存缓存
+            </summary>
+        </member>
+        <member name="T:Enowitsoft.Web.EnowitSession">
+            <summary>
+            Session对象操作类
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Web.EnowitSession.GetSession(System.String)">
+            <summary>
+            根据会话值的键名获取session对象
+            </summary>
+            <param name="name">会话值的键名</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Web.EnowitSession.GetSession(System.Int32)">
+            <summary>
+            根据会话值的数字索引获取session对象
+            </summary>
+            <param name="index">会话值的数字索引</param>
+            <returns>object</returns>
+        </member>
+        <member name="M:Enowitsoft.Web.EnowitSession.SetSession(System.String,System.Object)">
+            <summary>
+            设置session
+            </summary>
+            <param name="name">会话状态集合项的名称</param>
+            <param name="val">会话状态集合项的名称</param>
+        </member>
+        <member name="M:Enowitsoft.Web.EnowitSession.Add(System.String,System.String)">
+            <summary>
+            添加Session，Session有效期为20分钟
+            </summary>
+            <param name="name">会话值的键名</param>
+            <param name="value">会话值的键值</param>
+        </member>
+        <member name="M:Enowitsoft.Web.EnowitSession.Adds(System.String,System.String[])">
+            <summary>
+            添加Session，Session有效期为20分钟
+            </summary>
+            <param name="name">会话值的键名</param>
+            <param name="value">会话值的键值数组</param>
+        </member>
+        <member name="M:Enowitsoft.Web.EnowitSession.Add(System.String,System.String,System.Int32)">
+            <summary>
+            添加Session
+            </summary>
+            <param name="name">会话值的键名</param>
+            <param name="value">会话值的键值</param>
+            <param name="iExpires">调动有效期（分钟）</param>
+        </member>
+        <member name="M:Enowitsoft.Web.EnowitSession.Adds(System.String,System.String[],System.Int32)">
+            <summary>
+            添加Session对象，并指定有效时间
+            </summary>
+            <param name="name">会话值的键名</param>
+            <param name="values">会话值的键值数组</param>
+            <param name="iExpires">调动有效期（分钟）</param>
+        </member>
+        <member name="M:Enowitsoft.Web.EnowitSession.GetSessionValue(System.String)">
+            <summary>
+            读取某个Session对象值
+            </summary>
+            <param name="name">会话值的键名</param>
+            <returns>Session对象值</returns>
+        </member>
+        <member name="M:Enowitsoft.Web.EnowitSession.GetSessionValues(System.String)">
+            <summary>
+            读取某个Session对象值数组
+            </summary>
+            <param name="name">会话值的键名</param>
+            <returns>Session对象值数组</returns>
+        </member>
+        <member name="M:Enowitsoft.Web.EnowitSession.Del(System.String)">
+            <summary>
+            删除某个Session对象
+            </summary>
+            <param name="name">会话状态键值名称</param>
+        </member>
+        <member name="T:Enowitsoft.Web.EnowitQuery">
+            <summary>
+            地址栏参数
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Web.EnowitQuery.QueryString(System.String)">
+             <summary>
+            获取地址栏参数值
+             </summary>
+             <param name="name">参数名称</param>
+             <returns>string</returns>
+        </member>
+        <member name="M:Enowitsoft.Web.EnowitQuery.QueryFormString(System.String)">
+            <summary>
+            等于  Request.Form  如果为null 返回 空“” ，否则返回 Request.Form[name]
+            </summary>
+            <param name="name">参数名</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:Enowitsoft.Web.EnowitQuery.IsNumberId(System.String)">
+            <summary>
+            检查一个字符串是否是纯数字构成的
+            </summary>
+            <param name="input">需验证的字符串。。</param>
+            <returns>是否合法的bool值。</returns>
+        </member>
+        <member name="M:Enowitsoft.Web.EnowitQuery.IsMatch(System.String,System.String)">
+            <summary>
+            定的正则表达式在输入的字符串中是否匹配
+            </summary>
+            <param name="input">字符串</param>
+            <param name="pattern">正则表达式。</param>
+            <returns>是否合法的bool值</returns>
+        </member>
+        <member name="P:Enowitsoft.Web.EnowitQuery.Current">
+            <summary>
+            HttpContext Current
+            </summary>
+        </member>
+        <member name="P:Enowitsoft.Web.EnowitQuery.Request">
+            <summary>
+            HttpContext Current  HttpRequest Request   get { return Current.Request;
+            </summary>
+        </member>
+        <member name="P:Enowitsoft.Web.EnowitQuery.Response">
+            <summary>
+             HttpContext Current  HttpRequest Request   get { return Current.Request; HttpResponse Response  return Current.Response;
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Web.EnowitUrl.Base64Encrypt(System.String)">
+            <summary>
+            Url的64位编码
+            </summary>
+            <param name="url">url</param>
+            <returns>64位编码后的字符串</returns>
+        </member>
+        <member name="M:Enowitsoft.Web.EnowitUrl.Base64Decrypt(System.String)">
+            <summary>
+            URL的64位解码
+            </summary>
+            <param name="url">64位编码的字符串</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:Enowitsoft.Web.EnowitUrl.IsBase64(System.String)">
+            <summary>
+            是否是Base64字符串
+            </summary>
+            <param name="input">要判断的字符串</param>
+            <returns>bool</returns>
+        </member>
+        <member name="M:Enowitsoft.Web.EnowitUrl.AddParam(System.String,System.String,System.String)">
+            <summary>
+            对url增加参数信息
+            </summary>
+            <param name="url">url</param>
+            <param name="paramName">参数名称</param>
+            <param name="value">参数值</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:Enowitsoft.Web.EnowitUrl.UpdateParam(System.String,System.String,System.String)">
+            <summary>
+            修改Url参数值
+            </summary>
+            <param name="url">要修改的url</param>
+            <param name="paramName">参数名称</param>
+            <param name="value">参数值</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:Enowitsoft.Web.EnowitUrl.ParseUrl(System.String,System.String@,System.Collections.Specialized.NameValueCollection@)">
+            <summary>
+            分析 url 字符串中的参数信息
+            </summary>
+            <param name="url">输入的 URL</param>
+            <param name="baseUrl">输出 URL 的基础部分</param>
+            <param name="nvc">输出分析后得到的 (参数名,参数值) 的集合</param>
+        </member>
+        <member name="T:Enowitsoft.Web.EnowitCookie">
+            <summary>
+            Cookie操作类
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Web.EnowitCookie.ClearCookie(System.String)">
+            <summary>
+            清除指定Cookie
+            </summary>
+            <param name="cookieName">cookieName</param>
+        </member>
+        <member name="M:Enowitsoft.Web.EnowitCookie.GetCookieValue(System.String)">
+            <summary>
+            获取指定Cookie值
+            </summary>
+            <param name="cookieName">cookieName</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:Enowitsoft.Web.EnowitCookie.SetCookie(System.String,System.String)">
+            <summary>
+            添加一个Cookie（24小时过期）
+            </summary>
+            <param name="name"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:Enowitsoft.Web.EnowitCookie.SetCookie(System.String,System.String,System.DateTime)">
+            <summary>
+            添加一个Cookie
+            </summary>
+            <param name="name">cookie名</param>
+            <param name="key">cookie值</param>
+            <param name="expires">过期时间 DateTime</param>
+        </member>
+    </members>
+</doc>

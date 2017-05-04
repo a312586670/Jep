@@ -1,0 +1,44 @@
+E:\谢华良\demo\Enowit_Text_demo\Enowitsoft.Text\bin\Debug\Enowitsoft.Text.dll
+E:\谢华良\demo\Enowit_Text_demo\Enowitsoft.Text\bin\Debug\Enowitsoft.Text.pdb
+E:\谢华良\demo\Enowit_Text_demo\Enowitsoft.Text\obj\Debug\Enowitsoft.Text.dll
+E:\谢华良\demo\Enowit_Text_demo\Enowitsoft.Text\obj\Debug\Enowitsoft.Text.pdb
+E:\谢华良\demo\Enowit_Text_demo\Enowitsoft.Text\bin\Debug\Enowitsoft.Text.XML
+E:\Enowit Code\Enowitsoft\Enowitsoft.Text\bin\Debug\Enowitsoft.Text.XML
+E:\Enowit Code\Enowitsoft\Enowitsoft.Text\bin\Debug\Enowitsoft.Text.dll
+E:\Enowit Code\Enowitsoft\Enowitsoft.Text\bin\Debug\Enowitsoft.Text.pdb
+E:\Enowit Code\Enowitsoft\Enowitsoft.Text\obj\Debug\Enowitsoft.Text.dll
+E:\Enowit Code\Enowitsoft\Enowitsoft.Text\obj\Debug\Enowitsoft.Text.pdb
+I:\类库\Enowitsoft\Enowitsoft.Text\bin\Debug\Enowitsoft.Text.XML
+I:\类库\Enowitsoft\Enowitsoft.Text\bin\Debug\Enowitsoft.Text.dll
+I:\类库\Enowitsoft\Enowitsoft.Text\bin\Debug\Enowitsoft.Text.pdb
+I:\类库\Enowitsoft\Enowitsoft.Text\obj\Debug\ResolveAssemblyReference.cache
+I:\类库\Enowitsoft\Enowitsoft.Text\obj\Debug\Enowitsoft.Text.dll
+I:\类库\Enowitsoft\Enowitsoft.Text\obj\Debug\Enowitsoft.Text.pdb
+d:\我的文档\桌面\类库\Enowitsoft\Enowitsoft.Text\bin\Debug\Enowitsoft.Text.XML
+d:\我的文档\桌面\类库\Enowitsoft\Enowitsoft.Text\bin\Debug\Enowitsoft.Text.dll
+d:\我的文档\桌面\类库\Enowitsoft\Enowitsoft.Text\bin\Debug\Enowitsoft.Text.pdb
+d:\我的文档\桌面\类库\Enowitsoft\Enowitsoft.Text\obj\Debug\ResolveAssemblyReference.cache
+d:\我的文档\桌面\类库\Enowitsoft\Enowitsoft.Text\obj\Debug\Enowitsoft.Text.dll
+d:\我的文档\桌面\类库\Enowitsoft\Enowitsoft.Text\obj\Debug\Enowitsoft.Text.pdb
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Enowitsoft.Text\bin\Debug\Enowitsoft.Text.XML
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Enowitsoft.Text\bin\Debug\Enowitsoft.Text.dll
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Enowitsoft.Text\bin\Debug\Enowitsoft.Text.pdb
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Enowitsoft.Text\obj\Debug\Enowitsoft.Text.dll
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Enowitsoft.Text\obj\Debug\Enowitsoft.Text.pdb
+D:\项目\类库\Enowitsoft\Enowitsoft.Text\bin\Debug\Enowitsoft.Text.XML
+D:\项目\类库\Enowitsoft\Enowitsoft.Text\bin\Debug\Enowitsoft.Text.dll
+D:\项目\类库\Enowitsoft\Enowitsoft.Text\bin\Debug\Enowitsoft.Text.pdb
+D:\项目\类库\Enowitsoft\Enowitsoft.Text\obj\Debug\Enowitsoft.Text.dll
+D:\项目\类库\Enowitsoft\Enowitsoft.Text\obj\Debug\Enowitsoft.Text.pdb
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Enowitsoft.Text\bin\Debug\Enowitsoft.Text.dll
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Enowitsoft.Text\bin\Debug\Enowitsoft.Text.pdb
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Enowitsoft.Text\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Enowitsoft.Text\obj\Debug\Enowitsoft.Text.dll
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Enowitsoft.Text\obj\Debug\Enowitsoft.Text.pdb
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.Text\bin\Debug\Enowitsoft.Text.XML
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.Text\bin\Debug\Enowitsoft.Text.dll
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.Text\bin\Debug\Enowitsoft.Text.pdb
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.Text\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.Text\obj\Debug\Enowitsoft.Text.dll
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.Text\obj\Debug\Enowitsoft.Text.pdb
+D:\项目\类库\Enowitsoft\Enowitsoft.Text\obj\Debug\Enowitsoft.Text.csprojResolveAssemblyReference.cache

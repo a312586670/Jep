@@ -1,0 +1,33 @@
+E:\Enowit Code\Enowitsoft\Enowitsoft.Javascript\bin\Debug\Enowitsoft.Javascript.dll
+E:\Enowit Code\Enowitsoft\Enowitsoft.Javascript\bin\Debug\Enowitsoft.Javascript.pdb
+E:\Enowit Code\Enowitsoft\Enowitsoft.Javascript\obj\Debug\Enowitsoft.Javascript.dll
+E:\Enowit Code\Enowitsoft\Enowitsoft.Javascript\obj\Debug\Enowitsoft.Javascript.pdb
+E:\Enowit Code\Enowitsoft\Enowitsoft.Javascript\bin\Debug\Enowitsoft.Javascript.XML
+I:\类库\Enowitsoft\Enowitsoft.Javascript\bin\Debug\Enowitsoft.Javascript.XML
+I:\类库\Enowitsoft\Enowitsoft.Javascript\bin\Debug\Enowitsoft.Javascript.dll
+I:\类库\Enowitsoft\Enowitsoft.Javascript\bin\Debug\Enowitsoft.Javascript.pdb
+I:\类库\Enowitsoft\Enowitsoft.Javascript\obj\Debug\ResolveAssemblyReference.cache
+I:\类库\Enowitsoft\Enowitsoft.Javascript\obj\Debug\Enowitsoft.Javascript.dll
+I:\类库\Enowitsoft\Enowitsoft.Javascript\obj\Debug\Enowitsoft.Javascript.pdb
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Enowitsoft.Javascript\bin\Debug\Enowitsoft.Javascript.XML
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Enowitsoft.Javascript\bin\Debug\Enowitsoft.Javascript.dll
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Enowitsoft.Javascript\bin\Debug\Enowitsoft.Javascript.pdb
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Enowitsoft.Javascript\obj\Debug\Enowitsoft.Javascript.dll
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Enowitsoft.Javascript\obj\Debug\Enowitsoft.Javascript.pdb
+D:\项目\类库\Enowitsoft\Enowitsoft.Javascript\bin\Debug\Enowitsoft.Javascript.XML
+D:\项目\类库\Enowitsoft\Enowitsoft.Javascript\bin\Debug\Enowitsoft.Javascript.dll
+D:\项目\类库\Enowitsoft\Enowitsoft.Javascript\bin\Debug\Enowitsoft.Javascript.pdb
+D:\项目\类库\Enowitsoft\Enowitsoft.Javascript\obj\Debug\Enowitsoft.Javascript.dll
+D:\项目\类库\Enowitsoft\Enowitsoft.Javascript\obj\Debug\Enowitsoft.Javascript.pdb
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Enowitsoft.Javascript\bin\Debug\Enowitsoft.Javascript.dll
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Enowitsoft.Javascript\bin\Debug\Enowitsoft.Javascript.pdb
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Enowitsoft.Javascript\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Enowitsoft.Javascript\obj\Debug\Enowitsoft.Javascript.dll
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Enowitsoft.Javascript\obj\Debug\Enowitsoft.Javascript.pdb
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.Javascript\bin\Debug\Enowitsoft.Javascript.XML
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.Javascript\bin\Debug\Enowitsoft.Javascript.dll
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.Javascript\bin\Debug\Enowitsoft.Javascript.pdb
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.Javascript\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.Javascript\obj\Debug\Enowitsoft.Javascript.dll
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.Javascript\obj\Debug\Enowitsoft.Javascript.pdb
+D:\项目\类库\Enowitsoft\Enowitsoft.Javascript\obj\Debug\Enowitsoft.Javascript.csprojResolveAssemblyReference.cache

@@ -1,0 +1,10 @@
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.IO\bin\Release\Enowitsoft.IO.dll
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.IO\bin\Release\Enowitsoft.IO.pdb
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.IO\bin\Release\Eastonsoft.SharpZipLib.dll
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.IO\bin\Release\Enowitsoft.Xml.dll
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.IO\bin\Release\Eastonsoft.SharpZipLib.pdb
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.IO\bin\Release\Eastonsoft.SharpZipLib.xml
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.IO\bin\Release\Enowitsoft.Xml.pdb
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.IO\obj\Release\Enowitsoft.IO.csprojResolveAssemblyReference.cache
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.IO\obj\Release\Enowitsoft.IO.dll
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.IO\obj\Release\Enowitsoft.IO.pdb

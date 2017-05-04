@@ -1,0 +1,62 @@
+d:\我的文档\桌面\类库\Enowitsoft\Test\bin\Debug\Test.exe
+d:\我的文档\桌面\类库\Enowitsoft\Test\bin\Debug\Test.pdb
+d:\我的文档\桌面\类库\Enowitsoft\Test\obj\x86\Debug\ResolveAssemblyReference.cache
+d:\我的文档\桌面\类库\Enowitsoft\Test\obj\x86\Debug\Test.Form1.resources
+d:\我的文档\桌面\类库\Enowitsoft\Test\obj\x86\Debug\Test.Properties.Resources.resources
+d:\我的文档\桌面\类库\Enowitsoft\Test\obj\x86\Debug\GenerateResource.read.1.tlog
+d:\我的文档\桌面\类库\Enowitsoft\Test\obj\x86\Debug\GenerateResource.write.1.tlog
+d:\我的文档\桌面\类库\Enowitsoft\Test\obj\x86\Debug\Test.exe
+d:\我的文档\桌面\类库\Enowitsoft\Test\obj\x86\Debug\Test.pdb
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Test\obj\x86\Debug\Test.exe
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Test\obj\x86\Debug\Test.pdb
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Test\obj\x86\Debug\Test.exe
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Test\obj\x86\Debug\Test.pdb
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Test\bin\Debug\Test.exe
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Test\bin\Debug\Test.pdb
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Test\bin\Debug\Enowitsoft.Hardware.dll
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Test\bin\Debug\Interop.zkemkeeper.dll
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Test\bin\Debug\Enowitsoft.Hardware.pdb
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Test\bin\Debug\Enowitsoft.Hardware.xml
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Test\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Test\obj\x86\Debug\Test.Form2.resources
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Test\obj\x86\Debug\Test.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Test\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Test\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Test\obj\x86\Debug\Test.exe
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Test\obj\x86\Debug\Test.pdb
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Test\bin\Debug\Test.exe
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Test\bin\Debug\Test.pdb
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Test\bin\Debug\Enowitsoft.Hardware.dll
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Test\bin\Debug\Interop.zkemkeeper.dll
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Test\bin\Debug\Enowitsoft.Hardware.pdb
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Test\bin\Debug\Enowitsoft.Hardware.xml
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Test\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Test\obj\x86\Debug\Test.Form2.resources
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Test\obj\x86\Debug\Test.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Test\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Test\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\项目\类库\Enowitsoft\Test\bin\Debug\Test.exe
+D:\项目\类库\Enowitsoft\Test\bin\Debug\Test.pdb
+D:\项目\类库\Enowitsoft\Test\bin\Debug\Enowitsoft.Hardware.dll
+D:\项目\类库\Enowitsoft\Test\bin\Debug\Enowitsoft.IO.dll
+D:\项目\类库\Enowitsoft\Test\bin\Debug\Interop.zkemkeeper.dll
+D:\项目\类库\Enowitsoft\Test\bin\Debug\Eastonsoft.SharpZipLib.dll
+D:\项目\类库\Enowitsoft\Test\bin\Debug\Enowitsoft.Xml.dll
+D:\项目\类库\Enowitsoft\Test\bin\Debug\Enowitsoft.Hardware.pdb
+D:\项目\类库\Enowitsoft\Test\bin\Debug\Enowitsoft.Hardware.xml
+D:\项目\类库\Enowitsoft\Test\bin\Debug\Enowitsoft.IO.pdb
+D:\项目\类库\Enowitsoft\Test\bin\Debug\Enowitsoft.IO.xml
+D:\项目\类库\Enowitsoft\Test\bin\Debug\Eastonsoft.SharpZipLib.pdb
+D:\项目\类库\Enowitsoft\Test\bin\Debug\Eastonsoft.SharpZipLib.xml
+D:\项目\类库\Enowitsoft\Test\bin\Debug\Enowitsoft.Xml.pdb
+D:\项目\类库\Enowitsoft\Test\bin\Debug\Enowitsoft.Xml.xml
+D:\项目\类库\Enowitsoft\Test\obj\x86\Debug\Test.csprojResolveAssemblyReference.cache
+D:\项目\类库\Enowitsoft\Test\obj\x86\Debug\Test.Form2.resources
+D:\项目\类库\Enowitsoft\Test\obj\x86\Debug\Test.Properties.Resources.resources
+D:\项目\类库\Enowitsoft\Test\obj\x86\Debug\Test.csproj.GenerateResource.Cache
+D:\项目\类库\Enowitsoft\Test\obj\x86\Debug\Test.exe
+D:\项目\类库\Enowitsoft\Test\obj\x86\Debug\Test.pdb
+D:\项目\个人项目\Enowitsoft\branches\Test\obj\x86\Debug\Test.exe
+D:\项目\个人项目\Enowitsoft\branches\Test\obj\x86\Debug\Test.pdb
+D:\项目\个人项目\Enowitsoft\trunk\Test\obj\x86\Debug\Test.exe
+D:\项目\个人项目\Enowitsoft\trunk\Test\obj\x86\Debug\Test.pdb

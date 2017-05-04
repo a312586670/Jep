@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Runtime>
+  <error Verson="1.0.0.0" Assembly="Test">
+    <exception time="2014-11-12 10:20">
+      <content name="ProcessCmd">"D:\项目\类库\Enowitsoft\Test\bin\Debug\Test.vshost.exe" </content>
+      <content name="ServerPack">Service Pack 1</content>
+      <content name="SystemDir">C:\Windows\system32</content>
+      <content name="OSVersion">Microsoft Windows NT 6.1.7601 Service Pack 1</content>
+      <content name="CLRSeccondVersion">0</content>
+      <content name="CLRVersion">4</content>
+      <content name="CPUCount">4</content>
+      <content name="StackTrace">   在 System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   在 System.Environment.get_StackTrace()
+   在 Enowitsoft.IO.RuntimeLog.InitErrorNode(Exception ex, OperatingSystem os, Version vs) 位置 D:\项目\类库\Enowitsoft\Enowitsoft.IO\RuntimeLog.cs:行号 294
+   在 Enowitsoft.IO.RuntimeLog.WriteErrorLog(Exception ex, String path) 位置 D:\项目\类库\Enowitsoft\Enowitsoft.IO\RuntimeLog.cs:行号 158
+   在 Enowitsoft.IO.RuntimeLog.WriteRuntimeErrorLog(Exception ex) 位置 D:\项目\类库\Enowitsoft\Enowitsoft.IO\RuntimeLog.cs:行号 29
+   在 Test.Program.Main() 位置 D:\项目\类库\Enowitsoft\Test\Program.cs:行号 28
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()</content>
+      <content name="Message">尝试除以零。</content>
+    </exception>
+  </error>
+</Runtime>

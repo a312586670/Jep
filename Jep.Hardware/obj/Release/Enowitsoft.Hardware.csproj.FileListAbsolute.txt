@@ -1,0 +1,20 @@
+C:\Users\ThinkPad\Desktop\Work\Hardware\Enowitsoft.HardwareEx\obj\Release\ResolveAssemblyReference.cache
+C:\Users\ThinkPad\Desktop\Work\Hardware\Enowitsoft.HardwareEx\bin\Release\Enowitsoft.Hardware.dll
+C:\Users\ThinkPad\Desktop\Work\Hardware\Enowitsoft.HardwareEx\bin\Release\Enowitsoft.Hardware.pdb
+C:\Users\ThinkPad\Desktop\Work\Hardware\Enowitsoft.HardwareEx\bin\Release\Interop.zkemkeeper.dll
+C:\Users\ThinkPad\Desktop\Work\Hardware\Enowitsoft.HardwareEx\obj\Release\Enowitsoft.Hardware.dll
+C:\Users\ThinkPad\Desktop\Work\Hardware\Enowitsoft.HardwareEx\obj\Release\Enowitsoft.Hardware.pdb
+C:\Users\ThinkPad\Desktop\Work\Hardware\Enowitsoft.HardwareEx\bin\Release\Enowitsoft.Hardware.XML
+C:\Documents and Settings\Administrator\桌面\Enowitsoft.Hardware-v1.2\bin\Release\Enowitsoft.Hardware.dll
+C:\Documents and Settings\Administrator\桌面\Enowitsoft.Hardware-v1.2\bin\Release\Enowitsoft.Hardware.pdb
+C:\Documents and Settings\Administrator\桌面\Enowitsoft.Hardware-v1.2\bin\Release\Interop.zkemkeeper.dll
+C:\Documents and Settings\Administrator\桌面\Enowitsoft.Hardware-v1.2\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\Enowitsoft.Hardware-v1.2\obj\Release\Enowitsoft.Hardware.dll
+C:\Documents and Settings\Administrator\桌面\Enowitsoft.Hardware-v1.2\obj\Release\Enowitsoft.Hardware.pdb
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Hardware\bin\Release\Enowitsoft.Hardware.XML
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Hardware\bin\Release\Enowitsoft.Hardware.dll
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Hardware\bin\Release\Enowitsoft.Hardware.pdb
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Hardware\bin\Release\Interop.zkemkeeper.dll
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Hardware\obj\Release\Enowitsoft.Hardware.csprojResolveAssemblyReference.cache
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Hardware\obj\Release\Enowitsoft.Hardware.dll
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Hardware\obj\Release\Enowitsoft.Hardware.pdb

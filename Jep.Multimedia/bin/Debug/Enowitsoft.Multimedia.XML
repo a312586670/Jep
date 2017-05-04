@@ -1,0 +1,384 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Enowitsoft.Multimedia</name>
+    </assembly>
+    <members>
+        <member name="T:Enowitsoft.Multimedia.ImageProcess">
+            <summary>
+            提供常用图片处理方法
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Multimedia.ImageProcess.LDPic(System.Drawing.Bitmap,System.Int32)">
+            <summary>
+            调整光暗
+            </summary>
+            <param name="mybm">原始图片</param>
+            <param name="val">增加或减少的光暗值</param>
+        </member>
+        <member name="M:Enowitsoft.Multimedia.ImageProcess.RePic(System.Drawing.Bitmap)">
+            <summary>
+            反色处理
+            </summary>
+            <param name="mybm">原始图片</param>
+        </member>
+        <member name="M:Enowitsoft.Multimedia.ImageProcess.Emboss(System.Drawing.Bitmap)">
+            <summary>
+            浮雕处理
+            </summary>
+            <param name="oldBitmap">原始图片</param>
+        </member>
+        <member name="M:Enowitsoft.Multimedia.ImageProcess.ResizeImage(System.Drawing.Bitmap,System.Int32,System.Int32)">
+            <summary>
+            拉伸图片
+            </summary>
+            <param name="bmp">原始图片</param>
+            <param name="newW">新的宽度</param>
+            <param name="newH">新的高度</param>
+        </member>
+        <member name="M:Enowitsoft.Multimedia.ImageProcess.FilPic(System.Drawing.Bitmap)">
+            <summary>
+            滤色处理
+            </summary>
+            <param name="mybm">原始图片</param>
+        </member>
+        <member name="M:Enowitsoft.Multimedia.ImageProcess.RevPicLR(System.Drawing.Bitmap)">
+            <summary>
+            左右翻转
+            </summary>
+            <param name="mybm">原始图片</param>
+        </member>
+        <member name="M:Enowitsoft.Multimedia.ImageProcess.RevPicUD(System.Drawing.Bitmap)">
+            <summary>
+            上下翻转
+            </summary>
+            <param name="mybm">原始图片</param>
+        </member>
+        <member name="M:Enowitsoft.Multimedia.ImageProcess.Compress(System.String,System.String,System.Drawing.Size)">
+            <summary>
+            压缩到指定尺寸
+            </summary>
+            <param name="oldfile">原文件</param>
+            <param name="newfile">新文件</param>
+            <param name="newSize">新的尺寸</param>
+        </member>
+        <member name="M:Enowitsoft.Multimedia.ImageProcess.Gray(System.Drawing.Color)">
+            <summary>
+            将指定像素点转换成灰度像素点
+            </summary>
+            <param name="c">需要转换的颜色</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Multimedia.ImageProcess.BWPic(System.Drawing.Bitmap)">
+            <summary>
+            转换为黑白图片
+            </summary>
+            <param name="mybt">要进行处理的图片</param>
+        </member>
+        <member name="M:Enowitsoft.Multimedia.ImageProcess.GetFrames(System.String,System.String)">
+            <summary>
+            获取图片中的各帧
+            </summary>
+            <param name="pPath">图片路径</param>
+            <param name="pSavePath">保存路径</param>
+        </member>
+        <member name="T:Enowitsoft.Multimedia.ImageDown">
+            <summary>
+            提供图片下载方法
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Multimedia.ImageDown.GetImgTag(System.String)">
+            <summary>
+            获取图片标志
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Multimedia.ImageDown.GetImgUrl(System.String)">
+            <summary>
+            获取图片URL地址
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Multimedia.ImageDown.SaveUrlPics(System.String,System.String)">
+            <summary>
+            下载图片到本地
+            </summary>
+            <param name="strHTML">HTML</param>
+            <param name="path">路径</param>
+            <param name="nowyymm">年月</param>
+            <param name="nowdd">日</param>
+        </member>
+        <member name="T:Enowitsoft.Multimedia.ChineseCalendar">
+            <summary>
+            中国日历
+            </summary>
+        </member>
+        <member name="F:Enowitsoft.Multimedia.ChineseCalendar.LunarDateArray">
+             <summary>
+             来源于网上的农历数据
+             </summary>
+             <remarks>
+             数据结构如下，共使用17位数据
+             第17位：表示闰月天数，0表示29天   1表示30天
+             第16位-第5位（共12位）表示12个月，其中第16位表示第一月，如果该月为30天则为1，29天为0
+             第4位-第1位（共4位）表示闰月是哪个月，如果当年没有闰月，则置0
+            </remarks>
+        </member>
+        <member name="M:Enowitsoft.Multimedia.ChineseCalendar.#ctor(System.DateTime)">
+            <summary>
+            用一个标准的公历日期来初使化
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Multimedia.ChineseCalendar.#ctor(System.Int32,System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            用农历的日期来初使化
+            </summary>
+            <param name="cy">农历年</param>
+            <param name="cm">农历月</param>
+            <param name="cd">农历日</param>
+            <param name="LeapFlag">闰月标志</param>
+        </member>
+        <member name="M:Enowitsoft.Multimedia.ChineseCalendar.GetChineseMonthDays(System.Int32,System.Int32)">
+            <summary>
+            //传回农历y年m月的总天数
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Multimedia.ChineseCalendar.GetChineseLeapMonth(System.Int32)">
+            <summary>
+            传回农历 y年闰哪个月 1-12 , 没闰传回 0
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Multimedia.ChineseCalendar.GetChineseLeapMonthDays(System.Int32)">
+            <summary>
+            传回农历y年闰月的天数
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Multimedia.ChineseCalendar.GetChineseYearDays(System.Int32)">
+            <summary>
+            取农历年一年的天数
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Multimedia.ChineseCalendar.GetChineseHour(System.DateTime)">
+            <summary>
+            获得当前时间的时辰
+            </summary> 
+        </member>
+        <member name="M:Enowitsoft.Multimedia.ChineseCalendar.CheckDateLimit(System.DateTime)">
+            <summary>
+            检查公历日期是否符合要求
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Multimedia.ChineseCalendar.CheckChineseDateLimit(System.Int32,System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            检查农历日期是否合理
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Multimedia.ChineseCalendar.ConvertNumToChineseNum(System.Char)">
+            <summary>
+            将0-9转成汉字形式
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Multimedia.ChineseCalendar.BitTest32(System.Int32,System.Int32)">
+            <summary>
+            测试某位是否为真
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Multimedia.ChineseCalendar.ConvertDayOfWeek(System.DayOfWeek)">
+            <summary>
+            将星期几转成数字表示
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Multimedia.ChineseCalendar.CompareWeekDayHoliday(System.DateTime,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            比较当天是不是指定的第周几
+            </summary>
+        </member>
+        <member name="P:Enowitsoft.Multimedia.ChineseCalendar.LunarCalendarHoliday">
+            <summary>
+            计算中国农历节日
+            </summary>
+        </member>
+        <member name="P:Enowitsoft.Multimedia.ChineseCalendar.WeekDayHoliday">
+            <summary>
+            按某月第几周第几日计算的节日
+            </summary>
+        </member>
+        <member name="P:Enowitsoft.Multimedia.ChineseCalendar.DateHoliday">
+            <summary>
+            按公历日计算的节日
+            </summary>
+        </member>
+        <member name="P:Enowitsoft.Multimedia.ChineseCalendar.Date">
+            <summary>
+            取对应的公历日期
+            </summary>
+        </member>
+        <member name="P:Enowitsoft.Multimedia.ChineseCalendar.WeekDay">
+            <summary>
+            取星期几
+            </summary>
+        </member>
+        <member name="P:Enowitsoft.Multimedia.ChineseCalendar.WeekDayStr">
+            <summary>
+            周几的字符
+            </summary>
+        </member>
+        <member name="P:Enowitsoft.Multimedia.ChineseCalendar.DateString">
+            <summary>
+            公历日期中文表示法 如一九九七年七月一日
+            </summary>
+        </member>
+        <member name="P:Enowitsoft.Multimedia.ChineseCalendar.IsLeapYear">
+            <summary>
+            当前是否公历闰年
+            </summary>
+        </member>
+        <member name="P:Enowitsoft.Multimedia.ChineseCalendar.ChineseConstellation">
+            <summary>
+            28星宿计算
+            </summary>
+        </member>
+        <member name="P:Enowitsoft.Multimedia.ChineseCalendar.ChineseHour">
+            <summary>
+            时辰
+            </summary>
+        </member>
+        <member name="P:Enowitsoft.Multimedia.ChineseCalendar.IsChineseLeapMonth">
+            <summary>
+            是否闰月
+            </summary>
+        </member>
+        <member name="P:Enowitsoft.Multimedia.ChineseCalendar.IsChineseLeapYear">
+            <summary>
+            当年是否有闰月
+            </summary>
+        </member>
+        <member name="P:Enowitsoft.Multimedia.ChineseCalendar.ChineseDay">
+            <summary>
+            农历日
+            </summary>
+        </member>
+        <member name="P:Enowitsoft.Multimedia.ChineseCalendar.ChineseDayString">
+            <summary>
+            农历日中文表示
+            </summary>
+        </member>
+        <member name="P:Enowitsoft.Multimedia.ChineseCalendar.ChineseMonth">
+            <summary>
+            农历的月份
+            </summary>
+        </member>
+        <member name="P:Enowitsoft.Multimedia.ChineseCalendar.ChineseMonthString">
+            <summary>
+            农历月份字符串
+            </summary>
+        </member>
+        <member name="P:Enowitsoft.Multimedia.ChineseCalendar.ChineseYear">
+            <summary>
+            取农历年份
+            </summary>
+        </member>
+        <member name="P:Enowitsoft.Multimedia.ChineseCalendar.ChineseYearString">
+            <summary>
+            取农历年字符串如，一九九七年
+            </summary>
+        </member>
+        <member name="P:Enowitsoft.Multimedia.ChineseCalendar.ChineseDateString">
+            <summary>
+            取农历日期表示法：农历一九九七年正月初五
+            </summary>
+        </member>
+        <member name="P:Enowitsoft.Multimedia.ChineseCalendar.ChineseTwentyFourDay">
+            <summary>
+            定气法计算二十四节气,二十四节气是按地球公转来计算的，并非是阴历计算的
+            </summary>
+            <remarks>
+            节气的定法有两种。古代历法采用的称为"恒气"，即按时间把一年等分为24份，
+            每一节气平均得15天有余，所以又称"平气"。现代农历采用的称为"定气"，即
+            按地球在轨道上的位置为标准，一周360°，两节气之间相隔15°。由于冬至时地
+            球位于近日点附近，运动速度较快，因而太阳在黄道上移动15°的时间不到15天。
+            夏至前后的情况正好相反，太阳在黄道上移动较慢，一个节气达16天之多。采用
+            定气时可以保证春、秋两分必然在昼夜平分的那两天。
+            </remarks>
+        </member>
+        <member name="P:Enowitsoft.Multimedia.ChineseCalendar.Constellation">
+            <summary>
+            计算指定日期的星座序号 
+            </summary>
+        </member>
+        <member name="P:Enowitsoft.Multimedia.ChineseCalendar.Animal">
+            <summary>
+            计算属相的索引，注意虽然属相是以农历年来区别的，但是目前在实际使用中是按公历来计算的
+            鼠年为1,其它类推
+            </summary>
+        </member>
+        <member name="P:Enowitsoft.Multimedia.ChineseCalendar.AnimalString">
+            <summary>
+            取属相字符串
+            </summary>
+        </member>
+        <member name="P:Enowitsoft.Multimedia.ChineseCalendar.GanZhiYearString">
+            <summary>
+            取农历年的干支表示法如 乙丑年
+            </summary>
+        </member>
+        <member name="P:Enowitsoft.Multimedia.ChineseCalendar.GanZhiMonthString">
+            <summary>
+            取干支的月表示字符串，注意农历的闰月不记干支
+            </summary>
+        </member>
+        <member name="P:Enowitsoft.Multimedia.ChineseCalendar.GanZhiDayString">
+            <summary>
+            取干支日表示法
+            </summary>
+        </member>
+        <member name="P:Enowitsoft.Multimedia.ChineseCalendar.GanZhiDateString">
+            <summary>
+            取当前日期的干支表示法如 甲子年乙丑月丙庚日
+            </summary>
+        </member>
+        <member name="T:Enowitsoft.Multimedia.ChineseCalendar.SolarHolidayStruct">
+            <summary>
+            阳历
+            </summary>
+        </member>
+        <member name="T:Enowitsoft.Multimedia.ChineseCalendar.LunarHolidayStruct">
+            <summary>
+            农历
+            </summary>
+        </member>
+        <member name="T:Enowitsoft.Multimedia.BarCodeToHTML">
+            <summary>
+            提供生成二维码并转换成Html的方法
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Multimedia.BarCodeToHTML.GetCode39(System.String,System.Int32,System.Int32)">
+            <summary>
+            获取Code 39条形码
+            </summary>
+            <param name="s">构成条形码的数据</param>
+            <param name="width">条形码宽度</param>
+            <param name="height">条形码高度</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Multimedia.BarCodeToHTML.GetEAN13(System.String,System.Int32,System.Int32)">
+            <summary>
+            生成EAN13条形码
+            </summary>
+            <param name="s">条形码内容</param>
+            <param name="width">条形码宽度</param>
+            <param name="height">条形码高度</param>
+            <returns></returns>
+        </member>
+        <member name="T:Enowitsoft.Multimedia.CNY">
+            <summary>
+            提供人民币操作辅助方法
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Multimedia.CNY.NumberToChineseChar(System.Decimal)">
+            <summary> 
+            将阿拉伯数字形式的人民币金额转换成汉字类型
+            </summary> 
+            <param name="num">金额</param> 
+            <returns>返回大写形式</returns> 
+        </member>
+    </members>
+</doc>

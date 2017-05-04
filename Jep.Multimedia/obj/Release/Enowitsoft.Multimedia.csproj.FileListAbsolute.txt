@@ -1,0 +1,4 @@
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Multimedia\bin\Release\Enowitsoft.Multimedia.dll
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Multimedia\bin\Release\Enowitsoft.Multimedia.pdb
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Multimedia\obj\Release\Enowitsoft.Multimedia.dll
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Multimedia\obj\Release\Enowitsoft.Multimedia.pdb

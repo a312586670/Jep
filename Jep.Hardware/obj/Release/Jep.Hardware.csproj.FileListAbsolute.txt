@@ -1,0 +1,7 @@
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Hardware\bin\Release\Enowitsoft.Hardware.XML
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Hardware\bin\Release\Enowitsoft.Hardware.dll
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Hardware\bin\Release\Enowitsoft.Hardware.pdb
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Hardware\bin\Release\Interop.zkemkeeper.dll
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Hardware\obj\Release\Jep.Hardware.csprojResolveAssemblyReference.cache
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Hardware\obj\Release\Enowitsoft.Hardware.dll
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Hardware\obj\Release\Enowitsoft.Hardware.pdb

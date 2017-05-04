@@ -1,0 +1,8 @@
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Text\bin\Release\Enowitsoft.Text.dll
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Text\bin\Release\Enowitsoft.Text.pdb
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Text\obj\Release\Enowitsoft.Text.dll
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Text\obj\Release\Enowitsoft.Text.pdb
+D:\项目\project\jep\Jep.Text\bin\Release\Enowitsoft.Text.dll
+D:\项目\project\jep\Jep.Text\bin\Release\Enowitsoft.Text.pdb
+D:\项目\project\jep\Jep.Text\obj\Release\Enowitsoft.Text.dll
+D:\项目\project\jep\Jep.Text\obj\Release\Enowitsoft.Text.pdb

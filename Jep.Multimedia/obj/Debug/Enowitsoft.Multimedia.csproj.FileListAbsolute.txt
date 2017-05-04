@@ -1,0 +1,34 @@
+E:\Enowit Code\Enowitsoft\Enowitsoft.Multimedia\bin\Debug\Enowitsoft.Multimedia.dll
+E:\Enowit Code\Enowitsoft\Enowitsoft.Multimedia\bin\Debug\Enowitsoft.Multimedia.pdb
+E:\Enowit Code\Enowitsoft\Enowitsoft.Multimedia\obj\Debug\Enowitsoft.Multimedia.dll
+E:\Enowit Code\Enowitsoft\Enowitsoft.Multimedia\obj\Debug\Enowitsoft.Multimedia.pdb
+E:\Enowit Code\Enowitsoft\Enowitsoft.Multimedia\bin\Debug\Enowitsoft.Multimedia.XML
+E:\Enowit Code\Enowitsoft\Enowitsoft.Multimedia\obj\Debug\Enowitsoft.Multimedia.csprojResolveAssemblyReference.cache
+I:\类库\Enowitsoft\Enowitsoft.Multimedia\bin\Debug\Enowitsoft.Multimedia.XML
+I:\类库\Enowitsoft\Enowitsoft.Multimedia\bin\Debug\Enowitsoft.Multimedia.dll
+I:\类库\Enowitsoft\Enowitsoft.Multimedia\bin\Debug\Enowitsoft.Multimedia.pdb
+I:\类库\Enowitsoft\Enowitsoft.Multimedia\obj\Debug\ResolveAssemblyReference.cache
+I:\类库\Enowitsoft\Enowitsoft.Multimedia\obj\Debug\Enowitsoft.Multimedia.dll
+I:\类库\Enowitsoft\Enowitsoft.Multimedia\obj\Debug\Enowitsoft.Multimedia.pdb
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Enowitsoft.Multimedia\bin\Debug\Enowitsoft.Multimedia.XML
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Enowitsoft.Multimedia\bin\Debug\Enowitsoft.Multimedia.dll
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Enowitsoft.Multimedia\bin\Debug\Enowitsoft.Multimedia.pdb
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Enowitsoft.Multimedia\obj\Debug\Enowitsoft.Multimedia.dll
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Enowitsoft.Multimedia\obj\Debug\Enowitsoft.Multimedia.pdb
+D:\项目\类库\Enowitsoft\Enowitsoft.Multimedia\bin\Debug\Enowitsoft.Multimedia.XML
+D:\项目\类库\Enowitsoft\Enowitsoft.Multimedia\bin\Debug\Enowitsoft.Multimedia.dll
+D:\项目\类库\Enowitsoft\Enowitsoft.Multimedia\bin\Debug\Enowitsoft.Multimedia.pdb
+D:\项目\类库\Enowitsoft\Enowitsoft.Multimedia\obj\Debug\Enowitsoft.Multimedia.dll
+D:\项目\类库\Enowitsoft\Enowitsoft.Multimedia\obj\Debug\Enowitsoft.Multimedia.pdb
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Enowitsoft.Multimedia\bin\Debug\Enowitsoft.Multimedia.dll
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Enowitsoft.Multimedia\bin\Debug\Enowitsoft.Multimedia.pdb
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Enowitsoft.Multimedia\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Enowitsoft.Multimedia\obj\Debug\Enowitsoft.Multimedia.dll
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Enowitsoft.Multimedia\obj\Debug\Enowitsoft.Multimedia.pdb
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.Multimedia\bin\Debug\Enowitsoft.Multimedia.XML
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.Multimedia\bin\Debug\Enowitsoft.Multimedia.dll
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.Multimedia\bin\Debug\Enowitsoft.Multimedia.pdb
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.Multimedia\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.Multimedia\obj\Debug\Enowitsoft.Multimedia.dll
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Enowitsoft.Multimedia\obj\Debug\Enowitsoft.Multimedia.pdb
+D:\项目\类库\Enowitsoft\Enowitsoft.Multimedia\obj\Debug\Enowitsoft.Multimedia.csprojResolveAssemblyReference.cache

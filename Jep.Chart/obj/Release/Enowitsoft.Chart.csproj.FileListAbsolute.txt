@@ -1,0 +1,4 @@
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Chart\bin\Release\Enowitsoft.Chart.dll
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Chart\bin\Release\Enowitsoft.Chart.pdb
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Chart\obj\Release\Enowitsoft.Chart.dll
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Chart\obj\Release\Enowitsoft.Chart.pdb

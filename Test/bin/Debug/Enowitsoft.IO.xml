@@ -1,0 +1,213 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Enowitsoft.IO</name>
+    </assembly>
+    <members>
+        <member name="T:Enowitsoft.IO.ZipHelper">
+            <summary>
+            提供Zip压缩解压方法
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.IO.ZipHelper.EnZip(System.String,System.String,System.String)">
+            <summary>
+            压缩
+            </summary>
+            <param name="zipname">要解压的文件名</param>
+            <param name="zippath">要压缩的文件目录</param>
+            <param name="dirpath">初始目录</param>
+        </member>
+        <member name="M:Enowitsoft.IO.ZipHelper.DeZip(System.String,System.String)">
+            <summary>
+            解压缩
+            </summary>
+            <param name="zipname">要解压的文件名</param>
+            <param name="zippath">要解压的文件路径</param>
+        </member>
+        <member name="T:Enowitsoft.IO.ClassZip">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.IO.ClassZip.ZipFileDictory(System.String,Eastonsoft.SharpZipLib.Zip.ZipOutputStream,System.String)">
+            <summary>
+            递归压缩文件夹方法
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.IO.ClassZip.ZipFileDictory(System.String,System.String,System.Int32)">
+            <summary>
+            压缩目录
+            </summary>
+            <param name="FolderToZip">待压缩的文件夹，全路径格式</param>
+            <param name="ZipedFile">压缩后的文件名，全路径格式</param>
+        </member>
+        <member name="M:Enowitsoft.IO.ClassZip.ZipFile(System.String,System.String,System.Int32)">
+            <summary>
+            压缩文件
+            </summary>
+            <param name="FileToZip">要进行压缩的文件名</param>
+            <param name="ZipedFile">压缩后生成的压缩文件名</param>
+        </member>
+        <member name="M:Enowitsoft.IO.ClassZip.Zip(System.String,System.String,System.Int32)">
+            <summary>
+            压缩
+            </summary>
+            <param name="FileToZip">待压缩的文件目录</param>
+            <param name="ZipedFile">生成的目标文件</param>
+            <param name="level">6</param>
+        </member>
+        <member name="M:Enowitsoft.IO.ClassZip.UnZip(System.String,System.String)">
+            <summary>
+            解压
+            </summary>
+            <param name="FileToUpZip">待解压的文件</param>
+            <param name="ZipedFolder">解压目标存放目录</param>
+        </member>
+        <member name="T:Enowitsoft.IO.SharpZip">
+            <summary>
+            提供Zip压缩与解压
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.IO.SharpZip.PackFiles(System.String,System.String)">
+            <summary>
+            压缩
+            </summary> 
+            <param name="filename"> 压缩后的文件名(包含物理路径)</param>
+            <param name="directory">待压缩的文件夹(包含物理路径)</param>
+        </member>
+        <member name="M:Enowitsoft.IO.SharpZip._UnpackFiles(System.String,System.String)">
+            <summary>
+            解压缩
+            </summary>
+            <param name="file">待解压文件名(包含物理路径)</param>
+            <param name="dir"> 解压到哪个目录中(包含物理路径)</param>
+        </member>
+        <member name="M:Enowitsoft.IO.SharpZip.UnpackFiles(System.String,System.String)">
+            <summary>
+            解压缩
+            </summary>
+            <param name="file">待解压文件名(包含物理路径)</param>
+            <param name="dir"> 解压到哪个目录中(包含物理路径)</param>
+        </member>
+        <member name="T:Enowitsoft.IO.AppPath">
+            <summary>
+            提供Web和Winform应用程序路径获取方法。
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.IO.AppPath.GetWebPath(System.String)">
+            <summary>
+            根据给出的相对地址获取网站绝对地址
+            </summary>
+            <param name="localPath">相对地址</param>
+            <returns>绝对地址</returns>
+        </member>
+        <member name="M:Enowitsoft.IO.AppPath.GetWebPath">
+            <summary>
+             获取网站绝对地址
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.IO.AppPath._GetPath">
+            <summary>
+            获取Winform程序的根路径。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.IO.AppPath.GetPath">
+            <summary>
+            获取Winform程序的根路径。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Enowitsoft.IO.RuntimeLog">
+            <summary>
+            提供应用程序运行时日志生成方法
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.IO.RuntimeLog.WriteRuntimeErrorLog(System.Exception)">
+            <summary>
+            运行时错误日志
+            </summary>
+            <param name="ex">Exception 对象</param>
+        </member>
+        <member name="M:Enowitsoft.IO.RuntimeLog.WriteWebRuntimeErrorLog(System.Exception)">
+            <summary>
+            web运行时错误日志
+            </summary>
+            <param name="ex">Exception 对象</param>
+        </member>
+        <member name="M:Enowitsoft.IO.RuntimeLog.WriteActivityLog(System.String)">
+            <summary>
+            写入活动日志
+            </summary>
+            <param name="content">日志内容</param>
+        </member>
+        <member name="M:Enowitsoft.IO.RuntimeLog.WriteWebActivityLog(System.String)">
+            <summary>
+            Web站点写入活动日志
+            </summary>
+            <param name="content"></param>
+        </member>
+        <member name="M:Enowitsoft.IO.RuntimeLog.WriteLog(System.String,System.String)">
+            <summary>
+            写入活动日志
+            </summary>
+            <param name="path"></param>
+            <param name="content"></param>
+        </member>
+        <member name="M:Enowitsoft.IO.RuntimeLog.InitErrorNode(System.Exception,System.OperatingSystem,System.Version)">
+            <summary>
+            返回error节点
+            </summary>
+            <param name="ex"></param>
+            <param name="os"></param>
+            <param name="vs"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Enowitsoft.IO.TextFile">
+            <summary>
+            文本文件操作类
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.IO.TextFile.ReadText(System.String)">
+            <summary>
+            以默认编码方式读取指定路径的Txt文本文件。
+            </summary>
+            <param name="path">文件路径</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.IO.TextFile.ReadText(System.String,System.Text.Encoding)">
+            <summary>
+            以指定编码方式读取指定路径的Txt文本文件。
+            </summary>
+            <param name="path">文件路径</param>
+            <param name="encoding">文件编码</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.IO.TextFile.ReadAllLines(System.String)">
+            <summary>
+            已默认编码方式读取指定路径下的文本文件中的所有行。
+            </summary>
+            <param name="path">文本文件路径</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.IO.TextFile.ReadAllLines(System.String,System.Text.Encoding)">
+            <summary>
+            已指定编码方式读取指定路径下的文本文件中的所有行。
+            </summary>
+            <param name="path"></param>
+            <param name="encoding"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.IO.TextFile.WriterText(System.Collections.Generic.List{System.String},System.String,System.Boolean,System.Text.Encoding)">
+            <summary>
+            在指定路径创建文本文件。
+            </summary>
+            <param name="content">文件内容</param>
+            <param name="path">保存路径</param>
+            <param name="append">确定是否将数据追加到文件。如果该文件存在，并且append为false，则该文件被覆盖。如果该文件存在，并且append为true,则数据被追加到文件中。否则将创建新文件。</param>
+            <param name="encoding">文件编码方式</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

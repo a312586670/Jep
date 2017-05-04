@@ -1,0 +1,429 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Enowitsoft.Xml</name>
+    </assembly>
+    <members>
+        <member name="T:Enowitsoft.Xml.EnowitXmlNodes">
+            <summary>
+            EnowitXmlNodes基类，用于操作XML文档节点的一个集合
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Xml.EnowitXmlNodes.#ctor(Enowitsoft.Xml.EnowitXmlNode)">
+            <summary>
+            节点集合
+            </summary>
+            <param name="node">节点</param>
+        </member>
+        <member name="M:Enowitsoft.Xml.EnowitXmlNodes.Add(Enowitsoft.Xml.EnowitXmlNode)">
+            <summary>
+            增加方法
+            </summary>
+            <param name="node">EnowitXmlNode节点</param>
+        </member>
+        <member name="M:Enowitsoft.Xml.EnowitXmlNodes.GetEnumerator">
+            <summary>
+            返回一个IEnumerator对象
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Enowitsoft.Xml.EnowitXmlNodeEnum">
+            <summary>
+            继承ITnumerator接口，实现迭代
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Xml.EnowitXmlNodeEnum.#ctor(System.Collections.Generic.List{Enowitsoft.Xml.EnowitXmlNode})">
+            <summary>
+            构造一个EnowitXmlNodeEnum对象
+            </summary>
+            <param name="list">集合</param>
+        </member>
+        <member name="M:Enowitsoft.Xml.EnowitXmlNodeEnum.MoveNext">
+            <summary>
+            将枚举数推进到集合的下一个元素。
+            </summary>
+            <returns>如果枚举数成功地推进到下一个元素，则为 true；如果枚举数越过集合的结尾，则为 false。</returns>
+        </member>
+        <member name="M:Enowitsoft.Xml.EnowitXmlNodeEnum.Reset">
+            <summary>
+            将枚举数设置为其初始位置，该位置位于集合中第一个元素之前。
+            </summary>
+        </member>
+        <member name="P:Enowitsoft.Xml.EnowitXmlNodeEnum.Current">
+            <summary>
+            获取当前节点
+            </summary>
+        </member>
+        <member name="T:Enowitsoft.Xml.EnowitXml">
+            <summary>
+            XML操作类
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Xml.EnowitXml._CreateXmlFile(System.String,System.Text.Encoding,Enowitsoft.Xml.EnowitXmlNode)">
+            <summary>
+            根据根节点的一些信息创建XML文件
+            </summary>
+            <param name="filePath">文件路径全名</param>
+            <param name="encoding">编码</param>
+            <param name="rootNodes">根节点</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Xml.EnowitXml.AddNode(System.String,System.Text.Encoding,Enowitsoft.Xml.EnowitXmlNode)">
+            <summary>
+            增加节点
+            </summary>
+            <param name="filePath"></param>
+            <param name="encoding"></param>
+            <param name="rootNodes"></param>
+        </member>
+        <member name="M:Enowitsoft.Xml.EnowitXml._CreateXmlFile(System.String,System.Text.Encoding,Enowitsoft.Xml.EnowitXmlNode[])">
+            <summary>
+            创建XML文档
+            </summary>
+            <param name="filePath">文件路径全名</param>
+            <param name="encoding">编码</param>
+            <param name="nodes">节点</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Xml.EnowitXml._ReadRootNode(System.String,System.String)">
+            <summary>
+            读取XML根节点
+            </summary>
+            <param name="fileName">文件全名称</param>
+            <param name="node"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Xml.EnowitXml._ReadNode(System.String,System.String)">
+            <summary>
+            获取XMl文件的节点
+            </summary>
+            <param name="fileName">文件名称</param>
+            <param name="xPath">节点表达式:例如//节点1//节点2</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Xml.EnowitXml._ReadNode(System.String,System.String,System.String)">
+            <summary>
+            根据节点属性和属性值来获取节点文本
+            </summary>
+            <param name="fileName">XML文件路径全称</param>
+            <param name="attribute">属性名称</param>
+            <param name="key">属性值</param>
+            <returns>节点文本</returns>
+        </member>
+        <member name="M:Enowitsoft.Xml.EnowitXml.GetText(System.Xml.XmlNode,System.String,System.String)">
+            <summary>
+            循环遍历节点获取节点文本值
+            </summary>
+            <param name="root">遍历的开始节点</param>
+            <param name="attribute">属性名称</param>
+            <param name="key">属性值</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Xml.EnowitXml.CreateNode(Enowitsoft.Xml.EnowitXmlNode,System.Xml.XmlNode)">
+            <summary>
+            添加节点
+            </summary>
+            <param name="node">要添加的节点</param>
+            <param name="xmlNode">父节点</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Xml.EnowitXml.GetXPath(Enowitsoft.Xml.EnowitXmlNode)">
+            <summary>
+            获取节点父节点路径
+            </summary>
+            <param name="node">当前节点</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Xml.EnowitXml.CreateXmlFile(System.String,System.Text.Encoding,Enowitsoft.Xml.EnowitXmlNode)">
+            <summary>
+            根据根节点的一些信息创建XML文件
+            </summary>
+            <param name="filePath">文件路径全名</param>
+            <param name="encoding">编码</param>
+            <param name="rootNodes">根节点</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Xml.EnowitXml.CreateXmlFile(System.String,System.Text.Encoding,Enowitsoft.Xml.EnowitXmlNode[])">
+            <summary>
+            创建XML文档
+            </summary>
+            <param name="filePath">文件路径全名</param>
+            <param name="encoding">编码</param>
+            <param name="nodes">节点</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Xml.EnowitXml.ReadRootNode(System.String,System.String)">
+            <summary>
+            读取XML根节点
+            </summary>
+            <param name="fileName">文件名</param>
+            <param name="node">节点</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Xml.EnowitXml.ReadNode(System.String,System.String)">
+            <summary>
+            读取XMl文件的节点
+            </summary>
+            <param name="fileName">文件名称</param>
+            <param name="xPath">节点表达式:例如//节点1//节点2</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Xml.EnowitXml.ReadNode(System.String,System.String,System.String)">
+            <summary>
+            根据节点属性和属性值来获取节点文本
+            </summary>
+            <param name="fileName">XML文件路径全称</param>
+            <param name="attributeName">属性名称</param>
+            <param name="key">属性值</param>
+            <returns>节点文本</returns>
+        </member>
+        <member name="M:Enowitsoft.Xml.EnowitXml._GetNode(System.String,System.String)">
+            <summary>
+            获取指定XPath表达式的节点对象
+            </summary>     
+            <param name="fileName"></param>
+            <param name="xPath">XPath表达式,
+            范例1: @"Skill/First/SkillItem", 等效于 @"//Skill/First/SkillItem"
+            范例2: @"Table[USERNAME='a']" , []表示筛选,USERNAME是Table下的一个子节点.
+            范例3: @"ApplyPost/Item[@itemName='岗位编号']",@itemName是Item节点的属性.
+            </param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Xml.EnowitXml.GetNode(System.String,System.String)">
+            <summary>
+            获取指定XPath表达式的节点对象
+            </summary>
+            <param name="fileName">文件路径名</param>
+            <param name="xPath">XPath表达式,
+            范例1: @"Skill/First/SkillItem", 等效于 @"//Skill/First/SkillItem"
+            范例2: @"Table[USERNAME='a']" , []表示筛选,USERNAME是Table下的一个子节点.
+            范例3: @"ApplyPost/Item[@itemName='岗位编号']",@itemName是Item节点的属性.
+            </param>
+        </member>
+        <member name="M:Enowitsoft.Xml.EnowitXml.GetValue(System.String,System.String)">
+            <summary>
+            获取指定XPath表达式节点的值
+            </summary>
+            <param name="fileName">配置文件路径</param>
+            <param name="xPath">XPath表达式,
+            范例1: @"Skill/First/SkillItem", 等效于 @"//Skill/First/SkillItem"
+            范例2: @"Table[USERNAME='a']" , []表示筛选,USERNAME是Table下的一个子节点.
+            范例3: @"ApplyPost/Item[@itemName='岗位编号']",@itemName是Item节点的属性.
+            </param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Xml.EnowitXml.GetAttributeValue(System.String,System.String,System.String)">
+            <summary>
+            获取指定XPath表达式节点的属性值
+            </summary>
+            <param name="fileName">配置文件路径</param>
+            <param name="xPath">XPath表达式,
+            范例1: @"Skill/First/SkillItem", 等效于 @"//Skill/First/SkillItem"
+            范例2: @"Table[USERNAME='a']" , []表示筛选,USERNAME是Table下的一个子节点.
+            范例3: @"ApplyPost/Item[@itemName='岗位编号']",@itemName是Item节点的属性.
+            </param>
+            <param name="attributeName">属性名</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Xml.EnowitXml._AppendNode(System.String,System.String,System.Xml.XmlNode)">
+            <summary>
+            1. 功能：新增节点。
+            2. 使用条件：将任意节点插入到当前Xml文件中。
+            </summary>  
+            <param name="fileName">xml文件路径全名</param>
+            <param name="xPath">要插入的节点位子XPath表达式,</param>
+            <param name="xmlNode">要插入的Xml节点</param>
+            <return></return>
+        </member>
+        <member name="M:Enowitsoft.Xml.EnowitXml.AppendNode(System.String,System.String,System.Xml.XmlNode)">
+            <summary>
+            1. 功能：新增节点。
+            2. 使用条件：将任意节点插入到当前Xml文件中的自定节点下。
+            </summary>  
+            <param name="fileName">xml文件路径全名</param>
+            <param name="xPath">要插入的节点位子XPath表达式,</param>
+            <param name="xmlNode">要插入的Xml节点</param>
+        </member>
+        <member name="M:Enowitsoft.Xml.EnowitXml._RemoveNode(System.String,System.String)">
+            <summary>
+            删除指定XPath表达式的节点
+            </summary>    
+            <param name="fileName">xml文件路径全名</param>
+            <param name="xPath">XPath表达式,
+            范例1: @"Skill/First/SkillItem", 等效于 @"//Skill/First/SkillItem"
+            范例2: @"Table[USERNAME='a']" , []表示筛选,USERNAME是Table下的一个子节点.
+            范例3: @"ApplyPost/Item[@itemName='岗位编号']",@itemName是Item节点的属性.
+            </param>
+            <return></return>
+        </member>
+        <member name="M:Enowitsoft.Xml.EnowitXml.RemoveNode(System.String,System.String)">
+            <summary>
+            删除指定XPath表达式的节点
+            </summary>   
+            <param name="fileName">xml文件路径全名</param>
+            <param name="xPath">XPath表达式,
+            范例1: @"Skill/First/SkillItem", 等效于 @"//Skill/First/SkillItem"
+            范例2: @"Table[USERNAME='a']" , []表示筛选,USERNAME是Table下的一个子节点.
+            范例3: @"ApplyPost/Item[@itemName='岗位编号']",@itemName是Item节点的属性.
+            </param>
+        </member>
+        <member name="M:Enowitsoft.Xml.EnowitXml._GetDataSetByXml(System.String)">
+            <summary>
+            读取XML返回DataSet
+            </summary>
+            <param name="filePath">XML文件路径</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Xml.EnowitXml.GetDataSetByXml(System.String)">
+            <summary>
+            读取XML返回DataSet
+            </summary>
+            <param name="filePath">XML文件路径</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Xml.EnowitXml._UpdateNodeText(System.String,System.String,System.String)">
+            <summary>
+            修改指定节点的数据
+            </summary>
+            <param name="filePath">xml文件路径</param>
+            <param name="xPath">节点完整路径，xPath表达式:例如//根节点//节点2//节点3</param>
+            <param name="value">要修改的值</param>
+            <return></return>
+        </member>
+        <member name="M:Enowitsoft.Xml.EnowitXml.UpdateNodeText(System.String,System.String,System.String)">
+            <summary>
+            修改指定节点的数据
+            </summary>
+            <param name="filePath">xml文件路径</param>
+            <param name="xPath">节点完整路径，xPath表达式:例如//根节点//节点2//节点3</param>
+            <param name="value">要修改的值</param>
+            <return></return>
+        </member>
+        <member name="M:Enowitsoft.Xml.EnowitXml.ExectsNode(System.String,System.String,System.String,System.String)">
+            <summary>
+            根据判断某节点的一级孩子属性和属性值来判断该节点的孩子节点是否存在是否存在这样的属性孩子节点
+            </summary>
+            <param name="filePath">路径</param>
+            <param name="xpath">XPath表达式</param>
+            <param name="attributeName">孩子节点属性名字</param>
+            <param name="AttKey">孩子节点属性值</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Xml.EnowitXml.ExistNode(System.String,System.String,System.String,System.String)">
+            <summary>
+            根据判断某节点的一级孩子属性和属性值来判断该节点的孩子节点是否存在是否存在这样的属性孩子节点
+            </summary>
+            <param name="filePath">路径</param>
+            <param name="xpath">XPath表达式</param>
+            <param name="attributeName">孩子节点属性名字</param>
+            <param name="AttKey">孩子节点属性值</param>
+            <returns></returns>
+        </member>
+        <member name="T:Enowitsoft.Xml.EnowitXmlNode">
+            <summary>
+            EnowitXMlNode类，用于操作XML文档节点
+            </summary>
+        </member>
+        <member name="T:Enowitsoft.Xml.EnowitXmlNodeBase">
+            <summary>
+            EnowitXmlNodeBase基类，用于操作XML文档节点的基类
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Xml.EnowitXmlNodeBase.#ctor">
+            <summary>
+            构造EnowitXmlNodeBase对象
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Xml.EnowitXmlNodeBase.#ctor(System.String,System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="name">名称</param>
+            <param name="value">值</param>
+        </member>
+        <member name="M:Enowitsoft.Xml.EnowitXmlNodeBase.#ctor(System.String)">
+            <summary>
+            构造EnowitXmlNodeBase对象
+            </summary>
+            <param name="name"></param>
+        </member>
+        <member name="P:Enowitsoft.Xml.EnowitXmlNodeBase.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:Enowitsoft.Xml.EnowitXmlNodeBase.Value">
+            <summary>
+            值
+            </summary>
+        </member>
+        <member name="F:Enowitsoft.Xml.EnowitXmlNode._parentNode">
+            <summary>
+            父节点
+            </summary>
+        </member>
+        <member name="F:Enowitsoft.Xml.EnowitXmlNode._childNode">
+            <summary>
+            孩子节点
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Xml.EnowitXmlNode.#ctor">
+            <summary>
+            无参构造函数
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Xml.EnowitXmlNode.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="name">节点名称</param>
+        </member>
+        <member name="M:Enowitsoft.Xml.EnowitXmlNode.#ctor(System.String,System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="name">节点名称</param>
+            <param name="value">节点值</param>
+        </member>
+        <member name="M:Enowitsoft.Xml.EnowitXmlNode.#ctor(System.String,System.String,Enowitsoft.Xml.EnowitXmlNode)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="name">节点名称</param>
+            <param name="value">节点值</param>
+            <param name="parent">父节点</param>
+        </member>
+        <member name="P:Enowitsoft.Xml.EnowitXmlNode.NodeAttribute">
+            <summary>
+            节点属性列表
+            </summary>
+        </member>
+        <member name="P:Enowitsoft.Xml.EnowitXmlNode.ParentNode">
+            <summary>
+            父节点
+            </summary>
+        </member>
+        <member name="P:Enowitsoft.Xml.EnowitXmlNode.ChildNode">
+            <summary>
+            孩子节点
+            </summary>
+        </member>
+        <member name="T:Enowitsoft.Xml.EnowitXmlNodeAttribute">
+            <summary>
+            EnowitXMLNodeAttribute类，用于操作XML文档节点属性
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Xml.EnowitXmlNodeAttribute.#ctor">
+            <summary>
+            无参构造函数
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Xml.EnowitXmlNodeAttribute.#ctor(System.String,System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="name">节点名称</param>
+            <param name="value">节点值</param>
+        </member>
+    </members>
+</doc>

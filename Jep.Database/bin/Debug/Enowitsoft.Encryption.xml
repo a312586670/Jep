@@ -1,0 +1,217 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Enowitsoft.Encryption</name>
+    </assembly>
+    <members>
+        <member name="T:Enowitsoft.Encryption.DES">
+            <summary>
+            提供DES加密方法
+            </summary>
+        </member>
+        <member name="F:Enowitsoft.Encryption.DES.Keys">
+            <summary>
+            默认密钥向量
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Encryption.DES.EncryptDES(System.String,System.String)">
+            <summary>
+            DES加密字符串
+            </summary>
+            <param name="encryptString">待加密的字符串</param>
+            <param name="encryptKey">加密密钥,要求为8位</param>
+            <returns>加密成功返回加密后的字符串，失败返回null</returns>
+        </member>
+        <member name="M:Enowitsoft.Encryption.DES.DecryptDES(System.String,System.String)">
+            <summary>
+            DES解密字符串
+            </summary>
+            <param name="decryptString">待解密的字符串</param>
+            <param name="decryptKey">解密密钥,要求为8位,和加密密钥相同</param>
+            <returns>解密成功返回解密后的字符串，失败返回null</returns>
+        </member>
+        <member name="M:Enowitsoft.Encryption.DES.EncryptDES(System.String)">
+            <summary>
+            DES加密字符串，默认加密钥匙
+            </summary>
+            <param name="encryptString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Encryption.DES.DecryptDES(System.String)">
+            <summary>
+            DES解密字符串，默认加密钥匙
+            </summary>
+            <param name="decryptString"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Enowitsoft.Encryption.RSA">
+            <summary>
+            提供RSA加密方法
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Encryption.RSA.RSAKey(System.String@,System.String@)">
+            <summary>
+            RSA 的密钥产生 产生私钥 和公钥 
+            </summary>
+            <param name="xmlKeys"></param>
+            <param name="xmlPublicKey"></param>
+        </member>
+        <member name="M:Enowitsoft.Encryption.RSA.RSAEncrypt(System.String,System.String)">
+            <summary>
+            对string进行RSA算法加密
+            </summary>
+            <param name="xmlPublicKey">公钥</param>
+            <param name="m_strEncryptString">要加密的字符串</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Encryption.RSA.RSAEncrypt(System.String,System.Byte[])">
+            <summary>
+            对byte数组进行RSA算法加密
+            </summary>
+            <param name="xmlPublicKey">公钥</param>
+            <param name="EncryptString">需要加密的byte数组</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Encryption.RSA.RSADecrypt(System.String,System.String)">
+            <summary>
+            对string进行RSA算法解密
+            </summary>
+            <param name="xmlPrivateKey">公钥</param>
+            <param name="m_strDecryptString">密文</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Encryption.RSA.RSADecrypt(System.String,System.Byte[])">
+            <summary>
+            对byte数组进行RSA算法解密
+            </summary>
+            <param name="xmlPrivateKey">公钥</param>
+            <param name="bytes">密文数据</param>
+            <returns></returns>
+        </member>
+        <member name="T:Enowitsoft.Encryption.MD5">
+            <summary>
+            提供MD5加密方法
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Encryption.MD5.Md5Str16(System.String)">
+            <summary> 
+            md5 16位加密方法
+            </summary> 
+            <param name="str">要加密的字符串</param> 
+            <returns></returns> 
+        </member>
+        <member name="M:Enowitsoft.Encryption.MD5.Md5Str32(System.String)">
+            <summary> 
+            md5 32位加密方法
+            </summary> 
+            <param name="str">要加密的字符串</param> 
+            <returns></returns> 
+        </member>
+        <member name="M:Enowitsoft.Encryption.MD5.PlusMd5Str32(System.String)">
+            <summary>
+            md5 32位加密方法加强版
+            </summary>
+            <param name="str">要加密的字符串</param>
+            <returns></returns>
+        </member>
+        <member name="T:Enowitsoft.Encryption.HashEncode">
+            <summary>
+            得到随机安全码（哈希加密）。
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Encryption.HashEncode.GetSecurity">
+            <summary>
+            得到随机哈希加密字符串
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Encryption.HashEncode.GetRandomValue">
+            <summary>
+            得到一个随机数值
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Encryption.HashEncode.HashEncoding(System.String)">
+            <summary>
+            哈希加密一个字符串
+            </summary>
+            <param name="Security"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Enowitsoft.Encryption.AES">
+            <summary>
+            AES加密算法
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Encryption.AES.EncryptString(System.String,System.String,System.Int32)">
+            <summary>
+            AES加密函数
+            </summary>
+            <param name="value">要加密的字符串</param>
+            <param name="key">密钥</param>
+            <param name="keyBit">密钥位数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Encryption.AES.DecryptString(System.String,System.String,System.Int32)">
+            <summary>
+            AES解密函数
+            </summary>
+            <param name="value">要解密的字符串</param>
+            <param name="key">密钥</param>
+            <param name="keyBit">密钥位数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Encryption.AES.EntryptString(System.String,System.String,Enowitsoft.Encryption.KeySize)">
+            <summary>
+            AES加密函数
+            </summary>
+            <param name="text">要加密的字符串</param>
+            <param name="key">密钥</param>
+            <param name="keysize">密钥长度</param>
+            <returns>加密后的字符串</returns>
+        </member>
+        <member name="M:Enowitsoft.Encryption.AES.EntryptString(System.String)">
+            <summary>
+            AES加密函数
+            </summary>
+            <param name="text">要加密的字符串</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Encryption.AES.DecryptString(System.String,System.String,Enowitsoft.Encryption.KeySize)">
+            <summary>
+            AES解密函数
+            </summary>
+            <param name="text">被加密的字符串</param>
+            <param name="key">密钥</param>
+            <param name="keysize">密钥长度</param>
+            <returns>解密后的字符串</returns>
+        </member>
+        <member name="M:Enowitsoft.Encryption.AES.DecryptString(System.String)">
+            <summary>
+            AES解密函数
+            </summary>
+            <param name="text">被加密的字符串</param>
+            <returns></returns>
+        </member>
+        <member name="T:Enowitsoft.Encryption.KeySize">
+            <summary>
+            密钥大小，可以为128位，192位，256位
+            </summary>
+        </member>
+        <member name="F:Enowitsoft.Encryption.KeySize.B128">
+            <summary>
+            128位密钥
+            </summary>
+        </member>
+        <member name="F:Enowitsoft.Encryption.KeySize.B192">
+            <summary>
+            192位密钥
+            </summary>
+        </member>
+        <member name="F:Enowitsoft.Encryption.KeySize.B256">
+            <summary>
+            256位密钥
+            </summary>
+        </member>
+    </members>
+</doc>

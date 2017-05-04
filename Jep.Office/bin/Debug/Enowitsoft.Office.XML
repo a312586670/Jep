@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Enowitsoft.Office</name>
+    </assembly>
+    <members>
+        <member name="T:Enowitsoft.Office.ExcelHelper">
+            <summary>
+            Excel操作帮助类
+            </summary>
+        </member>
+        <member name="F:Enowitsoft.Office.ExcelHelper.book">
+            <summary>
+            工作薄
+            </summary>
+        </member>
+        <member name="F:Enowitsoft.Office.ExcelHelper.sheet">
+            <summary>
+            单元格对象
+            </summary>
+        </member>
+        <member name="F:Enowitsoft.Office.ExcelHelper.st">
+            <summary>
+            样式
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Office.ExcelHelper.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Office.ExcelHelper._ExportExcel(System.Data.DataTable,System.String)">
+            <summary>
+            把DataTable导出Excel表
+            </summary>
+            <param name="dataTable">DataTable</param>
+            <returns>true为成功，false为失败</returns>
+        </member>
+        <member name="M:Enowitsoft.Office.ExcelHelper.ExportExcel(System.Data.DataTable,System.String)">
+            <summary>
+            把DataTable导出到Excel表中
+            </summary>
+            <param name="dataTable">DataTable</param>
+            <param name="fileName">文件名</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Office.ExcelHelper._ExportDbExcel(System.Data.DataTable,System.String)">
+            <summary>
+            将数据导出至Excel文件
+            </summary>
+            <param name="Table">DataTable对象</param>
+            <param name="ExcelFilePath">Excel文件路径</param>
+        </member>
+        <member name="M:Enowitsoft.Office.ExcelHelper.ExportDbExcel(System.Data.DataTable,System.String)">
+            <summary>
+            导出Excel表
+            </summary>
+            <param name="table">DataTable</param>
+            <param name="fileName">路径</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Office.ExcelHelper._ImportExcel(System.String)">
+            <summary>
+            把Excel数据导出到DataTable
+            </summary>
+            <param name="filePath">excel文件路径</param>
+            <returns>DataTable</returns>
+        </member>
+        <member name="M:Enowitsoft.Office.ExcelHelper.ImportExcel(System.String)">
+            <summary>
+            把Excel数据导出到DataTable
+            </summary>
+            <param name="filePath">excel文件路径</param>
+            <returns>DataTable</returns>
+        </member>
+        <member name="M:Enowitsoft.Office.ExcelHelper._GetExcelTables(System.String)">
+            <summary>
+            获取Excel中数据表列表
+            </summary>
+            <param name="filePath">Excel文件路径</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Office.ExcelHelper.GetExcelTables(System.String)">
+            <summary>
+            获取Excel中数据表列表
+            </summary>
+            <param name="filePath">Excel文件路径</param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Office.ExcelHelper.SetColumnFit(Microsoft.Office.Interop.Excel.Worksheet)">
+            <summary>
+            Set Column Text fit
+            </summary>
+            <param name="sheet"></param>
+        </member>
+        <member name="M:Enowitsoft.Office.ExcelHelper.SaveToExcelToRespone(Aspose.Cells.Workbook,System.String)">
+            <summary>
+            通过Response方式导出数据
+            </summary>
+            <param name="workBook">Workbook对象</param>
+            <param name="savefile">文件名</param>
+        </member>
+        <member name="T:Enowitsoft.Office.ExportFiled">
+            <summary>
+            导出的列名和对应的标题对象
+            </summary>
+        </member>
+        <member name="F:Enowitsoft.Office.ExportFiled.fieldname">
+            <summary>
+            列名
+            </summary>
+        </member>
+        <member name="F:Enowitsoft.Office.ExportFiled.fieldtitle">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Office.ExportFiled.#ctor(System.String,System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="fieldname">列名</param>
+            <param name="fieldtitle">列标题</param>
+        </member>
+    </members>
+</doc>

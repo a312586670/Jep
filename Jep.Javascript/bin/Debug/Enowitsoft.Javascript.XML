@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Enowitsoft.Javascript</name>
+    </assembly>
+    <members>
+        <member name="T:Enowitsoft.Javascript.JScript">
+            <summary>
+            一些常用的Js调用
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Javascript.JScript.Alert(System.String)">
+            <summary>
+            弹出JavaScript小窗口
+            </summary>
+            <param name="js">窗口信息</param>
+        </member>
+        <member name="M:Enowitsoft.Javascript.JScript.AlertAndRedirect(System.String,System.String)">
+            <summary>
+            弹出消息框并且转向到新的URL
+            </summary>
+            <param name="message">消息内容</param>
+            <param name="toURL">连接地址</param>
+        </member>
+        <member name="M:Enowitsoft.Javascript.JScript.GoHistory(System.Int32)">
+            <summary>
+            回到历史页面
+            </summary>
+            <param name="value">-1/1</param>
+        </member>
+        <member name="M:Enowitsoft.Javascript.JScript.CloseWindow">
+            <summary>
+            关闭当前窗口
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Javascript.JScript.RefreshParent(System.String)">
+            <summary>
+            刷新父窗口
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Javascript.JScript.RefreshOpener">
+            <summary>
+            刷新打开窗口
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Javascript.JScript.OpenWebFormSize(System.String,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            打开指定大小的新窗体
+            </summary>
+            <param name="url">地址</param>
+            <param name="width">宽</param>
+            <param name="heigth">高</param>
+            <param name="top">头位置</param>
+            <param name="left">左位置</param>
+        </member>
+        <member name="M:Enowitsoft.Javascript.JScript.JavaScriptLocationHref(System.String)">
+            <summary>
+            转向Url制定的页面
+            </summary>
+            <param name="url">连接地址</param>
+        </member>
+        <member name="M:Enowitsoft.Javascript.JScript.ShowModalDialogWindow(System.String,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            打开指定大小位置的模式对话框
+            </summary>
+            <param name="webFormUrl">连接地址</param>
+            <param name="width">宽</param>
+            <param name="height">高</param>
+            <param name="top">距离上位置</param>
+            <param name="left">距离左位置</param>
+        </member>
+        <member name="M:Enowitsoft.Javascript.JScript.ShowModalDialogWindow(System.String,System.String)">
+            <summary>
+            弹出模态窗口
+            </summary>
+            <param name="webFormUrl"></param>
+            <param name="features"></param>
+        </member>
+        <member name="M:Enowitsoft.Javascript.JScript.ShowModalDialogJavascript(System.String,System.String)">
+            <summary>
+            弹出模态窗口
+            </summary>
+            <param name="webFormUrl"></param>
+            <param name="features"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Enowitsoft.Javascript.JScript.Alert(System.String,System.Web.UI.Page)">
+            <summary>
+            弹出JavaScript小窗口
+            </summary>
+            <param name="js">窗口信息</param>
+        </member>
+        <member name="M:Enowitsoft.Javascript.JScript.AlertAndRedirect(System.String,System.String,System.Web.UI.Page)">
+            <summary>
+            弹出消息框并且转向到新的URL
+            </summary>
+            <param name="message">消息内容</param>
+            <param name="toURL">连接地址</param>
+        </member>
+        <member name="M:Enowitsoft.Javascript.JScript.GoHistory(System.Int32,System.Web.UI.Page)">
+            <summary>
+            回到历史页面
+            </summary>
+            <param name="value">-1/1</param>
+        </member>
+        <member name="M:Enowitsoft.Javascript.JScript.OpenWindow(System.String)">
+            <summary>
+            打开新窗口
+            </summary>
+            <param name="url">链接</param>
+        </member>
+        <member name="M:Enowitsoft.Javascript.JScript.RefreshParent(System.String,System.Web.UI.Page)">
+            <summary>
+            刷新父窗口
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Javascript.JScript.RefreshOpener(System.Web.UI.Page)">
+            <summary>
+            刷新打开窗口
+            </summary>
+        </member>
+        <member name="M:Enowitsoft.Javascript.JScript.OpenWebFormSize(System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Web.UI.Page)">
+            <summary>
+            打开指定大小的新窗体
+            </summary>
+            <param name="url">地址</param>
+            <param name="width">宽</param>
+            <param name="heigth">高</param>
+            <param name="top">头位置</param>
+            <param name="left">左位置</param>
+        </member>
+        <member name="M:Enowitsoft.Javascript.JScript.JavaScriptLocationHref(System.String,System.Web.UI.Page)">
+            <summary>
+            转向Url制定的页面
+            </summary>
+            <param name="url">连接地址</param>
+        </member>
+        <member name="M:Enowitsoft.Javascript.JScript.ShowModalDialogWindow(System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Web.UI.Page)">
+            <summary>
+            打开指定大小位置的模式对话框
+            </summary>
+            <param name="webFormUrl">连接地址</param>
+            <param name="width">宽</param>
+            <param name="height">高</param>
+            <param name="top">距离上位置</param>
+            <param name="left">距离左位置</param>
+        </member>
+        <member name="M:Enowitsoft.Javascript.JScript.ShowModalDialogWindow(System.String,System.String,System.Web.UI.Page)">
+            <summary>
+            弹出模态窗口
+            </summary>
+            <param name="webFormUrl"></param>
+            <param name="features"></param>
+        </member>
+    </members>
+</doc>

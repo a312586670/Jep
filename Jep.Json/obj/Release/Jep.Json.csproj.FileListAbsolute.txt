@@ -1,0 +1,4 @@
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Json\bin\Release\Enowitsoft.Json.dll
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Json\bin\Release\Enowitsoft.Json.pdb
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Json\obj\Release\Enowitsoft.Json.dll
+D:\项目\个人项目\Enowitsoft\trunk\Enowitsoft.Json\obj\Release\Enowitsoft.Json.pdb

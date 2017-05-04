@@ -1,0 +1,37 @@
+E:\Enowit Code\Enowitsoft\bin\Eastonsoft.SharpZipLib.xml
+E:\Enowit Code\Enowitsoft\bin\Eastonsoft.SharpZipLib.dll
+E:\Enowit Code\Enowitsoft\bin\Eastonsoft.SharpZipLib.pdb
+E:\Enowit Code\Enowitsoft\Eastonsoft.SharpZLib\bin\Debug\Eastonsoft.SharpZipLib.dll
+E:\Enowit Code\Enowitsoft\Eastonsoft.SharpZLib\bin\Debug\Eastonsoft.SharpZipLib.pdb
+E:\Enowit Code\Enowitsoft\Eastonsoft.SharpZLib\bin\Debug\Eastonsoft.SharpZipLib.xml
+E:\Enowit Code\Enowitsoft\Eastonsoft.SharpZLib\obj\Debug\Eastonsoft.SharpZipLib.dll
+E:\Enowit Code\Enowitsoft\Eastonsoft.SharpZLib\obj\Debug\Eastonsoft.SharpZipLib.pdb
+I:\类库\Enowitsoft\Eastonsoft.SharpZLib\bin\Debug\Eastonsoft.SharpZipLib.XML
+I:\类库\Enowitsoft\Eastonsoft.SharpZLib\bin\Debug\Eastonsoft.SharpZipLib.dll
+I:\类库\Enowitsoft\Eastonsoft.SharpZLib\bin\Debug\Eastonsoft.SharpZipLib.pdb
+I:\类库\Enowitsoft\Eastonsoft.SharpZLib\obj\Debug\ResolveAssemblyReference.cache
+I:\类库\Enowitsoft\Eastonsoft.SharpZLib\obj\Debug\Eastonsoft.SharpZipLib.dll
+I:\类库\Enowitsoft\Eastonsoft.SharpZLib\obj\Debug\Eastonsoft.SharpZipLib.pdb
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Eastonsoft.SharpZLib\bin\Debug\Eastonsoft.SharpZipLib.XML
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Eastonsoft.SharpZLib\bin\Debug\Eastonsoft.SharpZipLib.dll
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Eastonsoft.SharpZLib\bin\Debug\Eastonsoft.SharpZipLib.pdb
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Eastonsoft.SharpZLib\obj\Debug\Eastonsoft.SharpZipLib.dll
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Eastonsoft.SharpZLib\obj\Debug\Eastonsoft.SharpZipLib.pdb
+C:\Users\Administrator\Desktop\类库\Enowitsoft\Eastonsoft.SharpZLib\obj\Debug\Eastonsoft.SharpZipLib.csprojResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Eastonsoft.SharpZLib\bin\Debug\Eastonsoft.SharpZipLib.dll
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Eastonsoft.SharpZLib\bin\Debug\Eastonsoft.SharpZipLib.pdb
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Eastonsoft.SharpZLib\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Eastonsoft.SharpZLib\obj\Debug\Eastonsoft.SharpZipLib.dll
+C:\Documents and Settings\Administrator\桌面\谢华良\Enowitsoft\Eastonsoft.SharpZLib\obj\Debug\Eastonsoft.SharpZipLib.pdb
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Eastonsoft.SharpZLib\bin\Debug\Eastonsoft.SharpZipLib.XML
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Eastonsoft.SharpZLib\bin\Debug\Eastonsoft.SharpZipLib.dll
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Eastonsoft.SharpZLib\bin\Debug\Eastonsoft.SharpZipLib.pdb
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Eastonsoft.SharpZLib\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Eastonsoft.SharpZLib\obj\Debug\Eastonsoft.SharpZipLib.dll
+C:\Documents and Settings\Administrator\桌面\Enowitsoft\Eastonsoft.SharpZLib\obj\Debug\Eastonsoft.SharpZipLib.pdb
+D:\项目\类库\Enowitsoft\Eastonsoft.SharpZLib\bin\Debug\Eastonsoft.SharpZipLib.XML
+D:\项目\类库\Enowitsoft\Eastonsoft.SharpZLib\bin\Debug\Eastonsoft.SharpZipLib.dll
+D:\项目\类库\Enowitsoft\Eastonsoft.SharpZLib\bin\Debug\Eastonsoft.SharpZipLib.pdb
+D:\项目\类库\Enowitsoft\Eastonsoft.SharpZLib\obj\Debug\Eastonsoft.SharpZipLib.csprojResolveAssemblyReference.cache
+D:\项目\类库\Enowitsoft\Eastonsoft.SharpZLib\obj\Debug\Eastonsoft.SharpZipLib.dll
+D:\项目\类库\Enowitsoft\Eastonsoft.SharpZLib\obj\Debug\Eastonsoft.SharpZipLib.pdb
